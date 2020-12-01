@@ -1,4 +1,5 @@
-
+import SpriteLayer from './layers/spriteLayer'
+import BackgroundLayer from './layers/backgroundLayer'
 const defaultConfig = {
   renderer: null,
   camera: null,
@@ -27,6 +28,11 @@ export default class World {
     this.width = config.width
     this.height = config.height
 
+    
+
+    // Create Renderer
+    // this.renderer.addLayer(backgroundLayer)
+    // this.renderer.addLayer(spriteLayer)
   }
   addEntity = (name, entity) => {
     this.entities[name] = entity
@@ -37,7 +43,7 @@ export default class World {
     requestAnimationFrame(this.gameLoop)
   }
   loadLevel = (level) => {
-    
+
   }
   update = (deltaTime) => {
     Object.keys(this.entities).forEach(name => {

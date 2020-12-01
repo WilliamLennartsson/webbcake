@@ -1,6 +1,5 @@
 import BaseLayer from './baseLayer'
 import SpriteSheet from '../spriteSheet'
-import Camera from '../camera'
 
 export default class BackgroundLayer extends BaseLayer{
   constructor(tileSet, level) {

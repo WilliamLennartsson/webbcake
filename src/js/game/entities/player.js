@@ -46,6 +46,10 @@ export default class Player extends BaseEntity {
     // const { xOffset, yOffset } = this.camera.getOffset()
     context.drawImage(spriteToDraw, this.x - camera.position.x, this.y - camera.position.y, this.width, this.height)
     // context.drawImage(spriteToDraw, this.x, this.y, this.width, this.height)
+    this.drawHitbox(context, camera)
+  }
+  drawHitbox = (context, camera) => {
+    context.strokeRect(this.x - camera.position.x, this.y - camera.position.y, this.width, this.height)
   }
 
   update = (deltaTime) => {
