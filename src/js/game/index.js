@@ -12,14 +12,15 @@ import World from './world'
 
 const canvas = document.getElementById('gameScreen')
 
-// const loadGameAssets = () => {
-//   return Promise.all([
-//     loadCharacter(), // soon deprecated
-//     loadTileset(),
-//     loadSamuraiSpriteset()
-//   ])
-// }
-
+/** TODO:
+     * Hitbox
+     * engine
+     * Collisions
+     * Fix layers!
+     * Safe array
+     * Better component system
+     * 
+     */
 window.onload = () => {
   console.log(canvas)
   loadGameAssets()
@@ -43,19 +44,15 @@ window.onload = () => {
     player.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/
     // const spriteLayer = new SpriteLayer(playerTileset, level)
     const sword = new Item(assets.images.sword, 200, 200, 100, 100)
+    const sword2 = new Item(assets.images.sword, 650, 300, 100, 100)
     
     // renderer.addLayer(spriteLayer)
     // TODO: Screen component
     const world = new World({ canvas, renderer, level, camera, width, height })
     world.addEntity('player', player)
     world.addEntity('sword', sword)
+    world.addEntity('sword2', sword2)
     world.start() 
-    /** TODO:
-     * Hitbox
-     * engine
-     * Collisions
-     * Fix layers!
-     */
 
   })
 }
