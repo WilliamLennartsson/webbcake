@@ -4,7 +4,6 @@ import KeyboardManager from './keyboardInputManager'
 
 export default class Player {
   constructor(model, x, y) {
-    console.log('model.sprite :>> ', model)
     if (model.sprite){
       this.sprite = model.sprite
       this.animationManager = new AnimationManager()
@@ -33,6 +32,8 @@ export default class Player {
     if (animSprite == null && this.sprite == null) return
     if (animSprite == null) spriteToDraw = this.sprite
     else spriteToDraw = animSprite
+    // const { xOffset, yOffset } = this.camera.getOffset()
+    //context.drawImage(spriteToDraw, xOffset + this.x, yOffset + this.y, this.width, this.height)
     context.drawImage(spriteToDraw, this.x, this.y, this.width, this.height)
   }
 
