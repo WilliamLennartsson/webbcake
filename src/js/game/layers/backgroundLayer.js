@@ -8,8 +8,8 @@ export default class BackgroundLayer extends BaseLayer{
     super()
     this.level = level
     this.camera = camera
-    this.tileCountH = 8
-    this.tileCountW = 8
+    this.tileCountH = 4
+    this.tileCountW = 4
     const tileWidth = tileSet.width / this.tileCountW
     const tileHeight = tileSet.height / this.tileCountH
     this.tileWidth = tileWidth

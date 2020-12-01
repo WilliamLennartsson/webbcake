@@ -15,8 +15,7 @@ const context = canvas.getContext('2d')
 
 const loadGameAssets = () => {
   return Promise.all([
-//    loadImage("./images/gameImages/BlueWizard/2BlueWizardIdle/Chara-BlueIdle00000.png")
-    loadCharacter(),
+    loadCharacter(), // soon deprecated
     loadTileset(),
     loadSamuraiSpriteset()
   ])
@@ -29,7 +28,8 @@ window.onload = () => {
     // Create World. LoadMap
     const level = loadLevel('level1')
     // Camera
-    const camera = new Camera(100, 100)
+    
+    const camera = new Camera(-((WIDTH - 50) / 2), -((HEIGHT - 150) / 2))
     // Create BackgroundLayer
     const backgroundLayer = new BackgroundLayer(tileSet, level, camera)
 
@@ -41,7 +41,7 @@ window.onload = () => {
     // Samurai
     // Player using a spriteSheet for animations
     const samuraiSpriteSheet = new SpriteSheet(samuraiTileset, 256, 256)
-    const samuraiPlayer = new Player({spriteSheet: samuraiSpriteSheet, data: samuraiWalkData}, 100, 100)
+    const samuraiPlayer = new Player({spriteSheet: samuraiSpriteSheet, data: samuraiWalkData}, 400, 300)
     samuraiPlayer.onmove = ({dir, pos}) => {
       //camera.pan(dir)
       camera.follow(pos)
@@ -55,7 +55,7 @@ window.onload = () => {
       renderer.draw(context)
       // camera.pan({x: 0.1, y: 0.1})
       samuraiPlayer.update()
-      samuraiPlayer.draw(context)
+      samuraiPlayer.draw(context, camera)
 
       requestAnimationFrame(update)
     }

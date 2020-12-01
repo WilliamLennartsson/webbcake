@@ -15,9 +15,7 @@ export default class Camera {
   }
   getOffset = () => { return { x: this.xOffset, y: this.yOffset} }
   follow = (pos) => {
-    this.xOffset = pos.x / -1
-    this.yOffset = pos.y / -1
-    this.position.x = pos.x
-    this.position.y = pos.y
+    this.position.x = pos.x + this.xOffset
+    this.position.y = pos.y + this.yOffset
   }
 }

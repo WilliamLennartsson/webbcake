@@ -1,10 +1,12 @@
 import AnimationManager from'./animationManager'
 import SpriteSheetAnimationManager from'./spriteSheetAnimator'
 import KeyboardManager from './keyboardInputManager'
+import Camera from './camera'
 
 export default class Player {
   constructor(model, x, y) {
-    if (model.sprite){
+    // Rendering
+    if (model.sprite){ // Sprite rendering + folder images animation rendering
       this.sprite = model.sprite
       this.animationManager = new AnimationManager()
       this.animationManager.load('Wizard', 'idle', (animation) => {
@@ -12,20 +14,25 @@ export default class Player {
           this.animationManager.play(animation.name, animation.animation)// hmm. dumb naming right here
         }
       })
-    }
-    if (model.spriteSheet && model.data) {
+    } else if (model.spriteSheet && model.data) { // SpriteSheet rendering
       this.animationManager = new SpriteSheetAnimationManager(model)
-      this.animationManager.play('moveWest')
+      this.animationManager.play('standEast')
     }
+    // Body
     this.x = x
     this.y = y
-    this.width = 100
-    this.height = 100
-    this.playerSpeed = 3
+    this.width = 200
+    this.height = 200
+    this.playerSpeed = 2
+    this.dir = {
+        x: 0,
+        y: 0
+      }
+    // Input
     this.keyboardManager = new KeyboardManager() 
   }
 
-  draw = (context) => {
+  draw = (context, camera) => {
     let spriteToDraw
     const animSprite = this.animationManager.getFrame()
     // console.log('animSprite :>> ', animSprite)
@@ -33,12 +40,14 @@ export default class Player {
     if (animSprite == null) spriteToDraw = this.sprite
     else spriteToDraw = animSprite
     // const { xOffset, yOffset } = this.camera.getOffset()
-    //context.drawImage(spriteToDraw, xOffset + this.x, yOffset + this.y, this.width, this.height)
-    context.drawImage(spriteToDraw, this.x, this.y, this.width, this.height)
+    context.drawImage(spriteToDraw, this.x - camera.position.x, this.y - camera.position.y, this.width, this.height)
+    // context.drawImage(spriteToDraw, this.x, this.y, this.width, this.height)
   }
 
   update = (deltaTime) => {
     const { left, right, up, down, aKey, sKey, wKey,dKey } = this.keyboardManager.keys
+    const lastDir = this.dir
+
     const dir = {
       x: 0,
       y: 0
@@ -48,27 +57,54 @@ export default class Player {
     if (left.down || aKey.down) dir.x = -1
     if (right.down || dKey.down) dir.x = 1
 
-    if (dir.x == 0 && dir.y == 1) this.animationManager.play('moveSouth') // down
-    if (dir.x == 1 && dir.y == 0) this.animationManager.play('moveEast') // right
-    if (dir.x == 0 && dir.y == -1) this.animationManager.play('moveNorth') // up
-    if (dir.x == -1 && dir.y == 0) this.animationManager.play('moveWest') // left
+    this.dir = dir
 
-    if (dir.x == 1 && dir.y == 1) this.animationManager.play('moveSouthEast') // southEast
-    if (dir.x == -1 && dir.y == 1) this.animationManager.play('moveSouthWest') // southWest
-    if (dir.x == 1 && dir.y == -1) this.animationManager.play('moveNorthEast') // northEast
-    if (dir.x == -1 && dir.y == -1) this.animationManager.play('moveNorthWest') // northWest
-    
-    // if (down.justPressed || sKey.justPressed) this.animationManager.play('moveSouth') // down
-    // if (up.justPressed || wKey.justPressed) this.animationManager.play('moveNorth') // up
-    // if (left.justPressed || aKey.justPressed) this.animationManager.play('moveWest') // left
-    // if (right.justPressed || dKey.justPressed) this.animationManager.play('moveEast') // right
-    
+    // Moves player 
+    if (!this.isIdle()) this.movePlayer(dir) // Only move if there is movement
+
+    // Select animation based on dir
+    this.changeAnim(dir, lastDir)
+
+    // Onmove callback for camera hook
+    if (this.onmove) this.onmove({pos: {x: this.x, y: this.y}, dir})
+    this.animationManager.update()
+    this.keyboardManager.update()
+  }
+
+  isIdle = () => this.dir.x == 0 && this.dir.y == 0
+
+  movePlayer = (dir) => {
     if (dir.y == 1) this.y += this.playerSpeed // Down
     if (dir.y == -1) this.y -= this.playerSpeed // Up
     if (dir.x == -1) this.x -= this.playerSpeed // Left
     if (dir.x == 1) this.x += this.playerSpeed // Right
-    if (this.onmove) this.onmove({pos: {x: this.x, y: this.y}, dir})
-    this.animationManager.update()
-    this.keyboardManager.update()
+  }
+
+  changeAnim = (dir, lastDir) => {
+    if (dir.x == lastDir.x && dir.y == lastDir.y) return // Same direction as last frame
+
+    // Start moving animation
+    if (dir.x == 0 && dir.y == 1) this.animationManager.play('moveSouth') // down
+    else if (dir.x == 1 && dir.y == 0) this.animationManager.play('moveEast') // right
+    else if (dir.x == 0 && dir.y == -1) this.animationManager.play('moveNorth') // up
+    else if (dir.x == -1 && dir.y == 0) this.animationManager.play('moveWest') // left
+    else if (dir.x == 1 && dir.y == 1) this.animationManager.play('moveSouthEast') // southEast
+    else if (dir.x == -1 && dir.y == 1) this.animationManager.play('moveSouthWest') // southWest
+    else if (dir.x == 1 && dir.y == -1) this.animationManager.play('moveNorthEast') // northEast
+    else if (dir.x == -1 && dir.y == -1) this.animationManager.play('moveNorthWest') // northWest
+
+    // Start Idle animation
+    if (dir.x == 0 && dir.y == 0) {
+      if (lastDir.x != 0 || lastDir.y != 0) { // Starting idle
+        if (lastDir.x == 0 && lastDir.y == 1) this.animationManager.play('standSouth') // down
+        else if (lastDir.x == 1 && lastDir.y == 0) this.animationManager.play('standEast') // right
+        else if (lastDir.x == 0 && lastDir.y == -1) this.animationManager.play('standNorth') // up
+        else if (lastDir.x == -1 && lastDir.y == 0) this.animationManager.play('standNorth') // left // NO ANIMATION
+        else if (lastDir.x == 1 && lastDir.y == 1) this.animationManager.play('standSouthEast') // southEast
+        else if (lastDir.x == -1 && lastDir.y == 1) this.animationManager.play('standSouthWest') // southWest
+        else if (lastDir.x == -1 && lastDir.y == -1) this.animationManager.play('standNorthWest') // northWest
+        else if (lastDir.x == 1 && lastDir.y == -1) this.animationManager.play('standNorthEast') // northEast
+      }
+    }
   }
 }

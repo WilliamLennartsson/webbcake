@@ -9,7 +9,7 @@ export default class AnimationManager {
 
     this.animations = {}
     this.currentAnimation = {frames: [], activeFrameIndex: -1, currentFrame: null}
-    this.animSpeed = 1
+    this.animSpeed = 8
     this.counter = 0
   }
 
