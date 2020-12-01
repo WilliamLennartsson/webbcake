@@ -1,5 +1,6 @@
 import SpriteLayer from './layers/spriteLayer'
 import BackgroundLayer from './layers/backgroundLayer'
+import Entity from './entities/baseEntity';
 const defaultConfig = {
   renderer: null,
   camera: null,
@@ -46,11 +47,29 @@ export default class World {
 
   }
   update = (deltaTime) => {
-    Object.keys(this.entities).forEach(name => {
+    // update
+    const entityNames = Object.keys(this.entities)
+    entityNames.forEach(name => {
       const entity = this.entities[name]
       if (entity.update) entity.update(deltaTime)
+      
+      entityNames.forEach(otherName => {
+        const otherEntity = this.entities[otherName]
+        if (entity !== otherEntity){
+          if (this.isCollision(entity, otherEntity)){
+            console.log("Holy shit")
+          }
+        }
+      })
     })
   }
+  isCollision = (e1, e2) => {
+    return (e1.x < e2.x + e2.width &&
+            e1.x + e1.width > e2.x &&
+            e1.y < e2.y + e2.height &&
+            e1.y + e1.height > e2.y)
+  }
+
   gameLoop = (time) => {
     if (this.renderer) {
       this.renderer.clear(this.context, this.width, this.width)
