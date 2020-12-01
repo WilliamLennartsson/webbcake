@@ -8,11 +8,7 @@ import Renderer from './renderer'
 import World from './world'
 
 const canvas = document.getElementById('gameScreen')
-const WIDTH =  window.innerWidth - 20
-const HEIGHT =  window.innerHeight - 20
-canvas.width = WIDTH
-canvas.height = HEIGHT
-const context = canvas.getContext('2d')
+
 
 const loadGameAssets = () => {
   return Promise.all([
@@ -26,36 +22,25 @@ window.onload = () => {
   console.log(canvas)
   loadGameAssets()
   .then(([character, tileSet, samuraiTileset]) => {
+    const width =  window.innerWidth - 20
+    const height =  window.innerHeight - 20
     // Create World. LoadMap
     const level = loadLevel('level1')
     // Camera
-    const camera = new Camera(-((WIDTH - 50) / 2), -((HEIGHT - 150) / 2))
+    const camera = new Camera(-((width - 50) / 2), -((height - 150) / 2))
     // Create BackgroundLayer
     const backgroundLayer = new BackgroundLayer(tileSet, level, camera)
     // Create Renderer
     const renderer = new Renderer(camera)
     renderer.addLayer(backgroundLayer)
-
     // Samurai
     // Player using a spriteSheet for animations
     const samuraiSpriteSheet = new SpriteSheet(samuraiTileset, 256, 256)
     const samuraiPlayer = new Player({spriteSheet: samuraiSpriteSheet, data: samuraiWalkData}, 400, 300)
     samuraiPlayer.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/ 
-
-    const world = new World(level, camera)
+    // TODO: Screen component
+    const world = new World({ canvas, renderer, level, camera, width, height })
     world.addEntity('player', samuraiPlayer)
-    
-    // context.drawImage(tileSet, 0, 0, tileWidth, tileHeight, 100, 100, 100, 100)
-    const update = (time) => {
-      renderer.clear(context, WIDTH, HEIGHT)
-      renderer.draw(context)
-      world.update(0) // TODO: DeltaTime
-      // samuraiPlayer.update()
-      samuraiPlayer.draw(context, camera)
-
-      requestAnimationFrame(update)
-    }
-
-    requestAnimationFrame(update)
+    world.start()
   })
 }
