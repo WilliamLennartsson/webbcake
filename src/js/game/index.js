@@ -2,10 +2,12 @@ import { loadCharacter, loadTileset, loadLevel, loadSamuraiSpriteset } from './l
 import SpriteSheet from './spriteSheet'
 import Player from './player'
 import samuraiWalkData from './gameImages/samurai/Boss_Samurai_Walk.json'
+import BackgroundLayer from './layers/backgroundLayer'
+import Camera from './camera'
 
 const canvas = document.getElementById('gameScreen')
-const WIDTH = window.innerHeight - 100
-const HEIGHT = window.innerHeight - 100
+const WIDTH =  window.innerWidth - 20
+const HEIGHT =  window.innerHeight - 20
 canvas.width = WIDTH
 canvas.height = HEIGHT
 const context = canvas.getContext('2d')
@@ -26,50 +28,39 @@ class Grid {
 }
 
 const setupLevel = (level) => {
-  //const level = loadLevel(level)
-  //console.log('level :>> ', level);
+  return loadLevel(level)
 }
-
 
 
 window.onload = () => {
   console.log(canvas)
   loadGameAssets()
   .then(([character, tileSet, samuraiTileset]) => {
-    // const gridCount = 10
-    const tileCountW = 25
-    const tileCountH = 12
-    const tileWidth = WIDTH / tileCountW
-    const tileHeight = HEIGHT / tileCountH
-    const backgroundSprites = new SpriteSheet(tileSet, tileWidth, tileHeight)
-    // sprites.define('corner', 0, 0)
-    // sprites.draw('corner', context, 0, 0)
-    backgroundSprites.define('corner-right', 1, 1, 5)
-    backgroundSprites.define('corner-left', 4, 2, 5)
-    console.log('Corner left :>> ', backgroundSprites.getSprite('corner-left'))
-    // setupLevel('level1')
-
-    // Player layer
+    // Create World. LoadMap
+    const level = setupLevel('level1')
+    // Camera
+    const camera = new Camera()
+    // Create BackgroundLayer
+    const backgroundLayer = new BackgroundLayer(tileSet, level, camera)
+    // Player using a sprite
     // const player = new Player({sprite: character}, 100, 100, 100, 100)
-
     // Samurai
+    // Player using a spriteSheet for animations
     const samuraiSpriteSheet = new SpriteSheet(samuraiTileset, 256, 256)
-    const samuraiPlayer = new Player({spriteSheet: samuraiSpriteSheet, data: samuraiWalkData}, 100, 100, 100, 100)
-
+    const samuraiPlayer = new Player({spriteSheet: samuraiSpriteSheet, data: samuraiWalkData}, 100, 100)
+    samuraiPlayer.onmove = ({dir, pos}) => {
+      //camera.pan(dir)
+      camera.follow(pos)
+    }
+    
     // context.drawImage(tileSet, 0, 0, tileWidth, tileHeight, 100, 100, 100, 100)
     const update = () => {
       context.clearRect(0, 0, WIDTH, HEIGHT)
       // Background layer
-      for (let y = 0; y < tileCountH; y++) {
-        for (let x = 0; x < tileCountW; x++) {
-          backgroundSprites.draw('corner-left', context, x * tileWidth, y * tileHeight)
-        } 
-      }
-      // Sprite layer
-      // player.draw(context)
-      // player.update()
+      backgroundLayer.draw(context)
+      // camera.pan({x: 0.1, y: 0.1})
       samuraiPlayer.update()
-    samuraiPlayer.draw(context)
+      samuraiPlayer.draw(context)
 
       requestAnimationFrame(update)
     }
