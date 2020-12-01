@@ -1,10 +1,11 @@
 import { loadCharacter, loadTileset, loadLevel, loadSamuraiSpriteset } from './loaders'
 import SpriteSheet from './spriteSheet'
-import Player from './player'
+import Player from './entities/player'
 import samuraiWalkData from './gameImages/samurai/Boss_Samurai_Walk.json'
 import BackgroundLayer from './layers/backgroundLayer'
 import Camera from './camera'
 import Renderer from './renderer'
+import World from './world'
 
 const canvas = document.getElementById('gameScreen')
 const WIDTH =  window.innerWidth - 20
@@ -28,33 +29,28 @@ window.onload = () => {
     // Create World. LoadMap
     const level = loadLevel('level1')
     // Camera
-    
     const camera = new Camera(-((WIDTH - 50) / 2), -((HEIGHT - 150) / 2))
     // Create BackgroundLayer
     const backgroundLayer = new BackgroundLayer(tileSet, level, camera)
-
+    // Create Renderer
     const renderer = new Renderer(camera)
     renderer.addLayer(backgroundLayer)
 
-    // Player using a sprite
-    // const player = new Player({sprite: character}, 100, 100, 100, 100)
     // Samurai
     // Player using a spriteSheet for animations
     const samuraiSpriteSheet = new SpriteSheet(samuraiTileset, 256, 256)
     const samuraiPlayer = new Player({spriteSheet: samuraiSpriteSheet, data: samuraiWalkData}, 400, 300)
-    samuraiPlayer.onmove = ({dir, pos}) => {
-      //camera.pan(dir)
-      camera.follow(pos)
-    }
+    samuraiPlayer.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/ 
+
+    const world = new World(level, camera)
+    world.addEntity('player', samuraiPlayer)
     
     // context.drawImage(tileSet, 0, 0, tileWidth, tileHeight, 100, 100, 100, 100)
-    const update = () => {
-      context.clearRect(0, 0, WIDTH, HEIGHT)
-      // Background layer
-      // backgroundLayer.draw(context)
+    const update = (time) => {
+      renderer.clear(context, WIDTH, HEIGHT)
       renderer.draw(context)
-      // camera.pan({x: 0.1, y: 0.1})
-      samuraiPlayer.update()
+      world.update(0) // TODO: DeltaTime
+      // samuraiPlayer.update()
       samuraiPlayer.draw(context, camera)
 
       requestAnimationFrame(update)

@@ -1,11 +1,14 @@
-import AnimationManager from'./animationManager'
-import SpriteSheetAnimationManager from'./spriteSheetAnimator'
-import KeyboardManager from './keyboardInputManager'
-import Camera from './camera'
+import BaseEntity from'./baseEntity'
+import AnimationManager from'../animationManager'
+import SpriteSheetAnimationManager from'../spriteSheetAnimator'
+import KeyboardManager from '../keyboardInputManager'
+import Camera from '../camera'
 
-export default class Player {
+export default class Player extends BaseEntity {
   constructor(model, x, y) {
     // Rendering
+    super()
+    console.log('this :>> ', this);
     if (model.sprite){ // Sprite rendering + folder images animation rendering
       this.sprite = model.sprite
       this.animationManager = new AnimationManager()
@@ -24,6 +27,7 @@ export default class Player {
     this.width = 200
     this.height = 200
     this.playerSpeed = 2
+    this.velocity = 0 // Not used yet
     this.dir = {
         x: 0,
         y: 0
@@ -45,18 +49,8 @@ export default class Player {
   }
 
   update = (deltaTime) => {
-    const { left, right, up, down, aKey, sKey, wKey,dKey } = this.keyboardManager.keys
     const lastDir = this.dir
-
-    const dir = {
-      x: 0,
-      y: 0
-    }
-    if (down.down || sKey.down) dir.y = 1
-    if (up.down || wKey.down) dir.y = -1
-    if (left.down || aKey.down) dir.x = -1
-    if (right.down || dKey.down) dir.x = 1
-
+    const dir = this.getDir()
     this.dir = dir
 
     // Moves player 
@@ -67,8 +61,22 @@ export default class Player {
 
     // Onmove callback for camera hook
     if (this.onmove) this.onmove({pos: {x: this.x, y: this.y}, dir})
+    // Update components
     this.animationManager.update()
     this.keyboardManager.update()
+  }
+
+  getDir = () => {
+    const { left, right, up, down, aKey, sKey, wKey,dKey } = this.keyboardManager.keys
+    const dir = {
+      x: 0,
+      y: 0
+    }
+    if (down.down || sKey.down) dir.y = 1
+    if (up.down || wKey.down) dir.y = -1
+    if (left.down || aKey.down) dir.x = -1
+    if (right.down || dKey.down) dir.x = 1
+    return dir
   }
 
   isIdle = () => this.dir.x == 0 && this.dir.y == 0

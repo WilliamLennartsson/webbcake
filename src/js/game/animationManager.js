@@ -11,7 +11,6 @@ export default class AnimationManager {
 
   loadWithSpriteSheet = (spriteSheet, animationData) => {
 
-
   }
 
   load(name, animation, onLoad) {
