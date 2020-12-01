@@ -33,8 +33,6 @@ export default class Player {
     if (animSprite == null && this.sprite == null) return
     if (animSprite == null) spriteToDraw = this.sprite
     else spriteToDraw = animSprite
-    //console.log('spriteToDraw :>> ', spriteToDraw);
-    // console.log("Srptei: ", spriteToDraw)
     context.drawImage(spriteToDraw, this.x, this.y, this.width, this.height)
   }
 
@@ -64,11 +62,11 @@ export default class Player {
     // if (left.justPressed || aKey.justPressed) this.animationManager.play('moveWest') // left
     // if (right.justPressed || dKey.justPressed) this.animationManager.play('moveEast') // right
     
-    if (down.down || sKey.down) this.y += this.playerSpeed
-    if (up.down || wKey.down) this.y -= this.playerSpeed
-    if (left.down || aKey.down) this.x -= this.playerSpeed
-    if (right.down || dKey.down) this.x += this.playerSpeed
-
+    if (dir.y == 1) this.y += this.playerSpeed // Down
+    if (dir.y == -1) this.y -= this.playerSpeed // Up
+    if (dir.x == -1) this.x -= this.playerSpeed // Left
+    if (dir.x == 1) this.x += this.playerSpeed // Right
+    if (this.onmove) this.onmove({pos: {x: this.x, y: this.y}, dir})
     this.animationManager.update()
     this.keyboardManager.update()
   }
