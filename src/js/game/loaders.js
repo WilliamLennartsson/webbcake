@@ -1,5 +1,9 @@
 import character from './gameImages/Char.png'
-import backgroundTileset from './gameImages/MossyTileset/MossyTileSet.png'
+import backgroundTileset from './gameImages/overworldTileset/PNG/overworld.png'
+
+
+
+
 export const loadCharacter = () => {
   return new Promise(resolve => {
     const image = new Image()

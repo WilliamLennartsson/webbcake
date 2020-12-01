@@ -6,21 +6,21 @@ export default class SpriteSheet {
     this.tiles = new Map()
 
   }
-  define = (name, x, y) => {
+  define = (name, x, y, scale) => {
     const buffer = document.createElement('canvas')
     buffer.width = this.width
     buffer.height = this.height
     buffer.getContext('2d')
       .drawImage(
         this.image,
-        x * this.width,
-        y * this.height,
-        this.width,
-        this.height,
-        0,
-        0,
-        this.width,
-        this.height)
+        2 * this.width, // sx
+        0 * this.height, // sy
+        this.width, // sWidth
+        this.height, // sHeight
+        0, // dx
+        0, // dy
+        this.width, // dWidth
+        this.height) // dHeight
     this.tiles.set(name, buffer)
   }
   draw = (name, context, x, y) => {
