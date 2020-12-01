@@ -22,23 +22,12 @@ const loadGameAssets = () => {
   ])
 }
 
-class Grid {
-  constructor(rows, cols) {
-    
-  }
-}
-
-const setupLevel = (level) => {
-  return loadLevel(level)
-}
-
-
 window.onload = () => {
   console.log(canvas)
   loadGameAssets()
   .then(([character, tileSet, samuraiTileset]) => {
     // Create World. LoadMap
-    const level = setupLevel('level1')
+    const level = loadLevel('level1')
     // Camera
     const camera = new Camera(100, 100)
     // Create BackgroundLayer
