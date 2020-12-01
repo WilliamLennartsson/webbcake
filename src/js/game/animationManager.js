@@ -8,22 +8,24 @@ export default class AnimationManager {
     this.animSpeed = 2
     this.counter = 0
   }
-  
+
+  loadWithSpriteSheet = (spriteSheet, animationData) => {
+
+
+  }
+
   load(name, animation, onLoad) {
-    return new Promise(resolve => {
-      const frames = wizardAnimationFrames[animation].frames
-      const loadingFrames = []
-      console.log(frames)
-      for (let i = 0; i < frames.length; i++){
-        loadingFrames.push(loadImage(frames[i]))
+    const frames = wizardAnimationFrames[animation].frames
+    const loadingFrames = []
+    for (let i = 0; i < frames.length; i++){
+      loadingFrames.push(loadImage(frames[i]))
+    }
+    Promise.all(loadingFrames)
+    .then(loadedFrames => {
+      this.animations[name] = {
+        [animation]: { frames: loadedFrames, activeFrameIndex: -1, currentFrame: null }
       }
-      Promise.all(loadingFrames)
-      .then(loadedFrames => {
-        this.animations[name] = {
-          [animation]: { frames: loadedFrames, activeFrameIndex: -1, currentFrame: null }
-        }
-        if (onLoad) onLoad({status: 'loaded', name, animation})
-      })
+      if (onLoad) onLoad({status: 'loaded', name, animation})
     })
   }
   play(name, animation) {
@@ -31,7 +33,7 @@ export default class AnimationManager {
     this.currentAnimation = animCollection[animation]
     this.currentAnimation.activeFrameIndex = 0
     this.currentAnimation.currentFrame = this.currentAnimation.frames[0]
-    console.log(this.currentAnimation)
+    // console.log(this.currentAnimation)
   }
   update() {
     const currAnim = this.currentAnimation

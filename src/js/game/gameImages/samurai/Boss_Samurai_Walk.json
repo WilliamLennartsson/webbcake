@@ -1,0 +1,4075 @@
+{
+    "frames": {
+        "Boss_Samurai_Walk0.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk1.png": {
+            "frame": {
+                "x": 256,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk2.png": {
+            "frame": {
+                "x": 512,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk3.png": {
+            "frame": {
+                "x": 768,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk4.png": {
+            "frame": {
+                "x": 1024,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk5.png": {
+            "frame": {
+                "x": 1280,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk6.png": {
+            "frame": {
+                "x": 1536,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk7.png": {
+            "frame": {
+                "x": 1792,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk8.png": {
+            "frame": {
+                "x": 2048,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk9.png": {
+            "frame": {
+                "x": 2304,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk10.png": {
+            "frame": {
+                "x": 2560,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk11.png": {
+            "frame": {
+                "x": 2816,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk12.png": {
+            "frame": {
+                "x": 3072,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk13.png": {
+            "frame": {
+                "x": 3328,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk14.png": {
+            "frame": {
+                "x": 0,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk15.png": {
+            "frame": {
+                "x": 256,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk16.png": {
+            "frame": {
+                "x": 512,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk17.png": {
+            "frame": {
+                "x": 768,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk18.png": {
+            "frame": {
+                "x": 1024,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk19.png": {
+            "frame": {
+                "x": 1280,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk20.png": {
+            "frame": {
+                "x": 1536,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk21.png": {
+            "frame": {
+                "x": 1792,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk22.png": {
+            "frame": {
+                "x": 2048,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk23.png": {
+            "frame": {
+                "x": 2304,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk24.png": {
+            "frame": {
+                "x": 2560,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk25.png": {
+            "frame": {
+                "x": 2816,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk26.png": {
+            "frame": {
+                "x": 3072,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk27.png": {
+            "frame": {
+                "x": 3328,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk28.png": {
+            "frame": {
+                "x": 0,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk29.png": {
+            "frame": {
+                "x": 256,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk30.png": {
+            "frame": {
+                "x": 512,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk31.png": {
+            "frame": {
+                "x": 768,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk32.png": {
+            "frame": {
+                "x": 1024,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk33.png": {
+            "frame": {
+                "x": 1280,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk34.png": {
+            "frame": {
+                "x": 1536,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk35.png": {
+            "frame": {
+                "x": 1792,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk36.png": {
+            "frame": {
+                "x": 2048,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk37.png": {
+            "frame": {
+                "x": 2304,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk38.png": {
+            "frame": {
+                "x": 2560,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk39.png": {
+            "frame": {
+                "x": 2816,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk40.png": {
+            "frame": {
+                "x": 3072,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk41.png": {
+            "frame": {
+                "x": 3328,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk42.png": {
+            "frame": {
+                "x": 0,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk43.png": {
+            "frame": {
+                "x": 256,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk44.png": {
+            "frame": {
+                "x": 512,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk45.png": {
+            "frame": {
+                "x": 768,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk46.png": {
+            "frame": {
+                "x": 1024,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk47.png": {
+            "frame": {
+                "x": 1280,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk48.png": {
+            "frame": {
+                "x": 1536,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk49.png": {
+            "frame": {
+                "x": 1792,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk50.png": {
+            "frame": {
+                "x": 2048,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk51.png": {
+            "frame": {
+                "x": 2304,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk52.png": {
+            "frame": {
+                "x": 2560,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk53.png": {
+            "frame": {
+                "x": 2816,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk54.png": {
+            "frame": {
+                "x": 3072,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk55.png": {
+            "frame": {
+                "x": 3328,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk56.png": {
+            "frame": {
+                "x": 0,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk57.png": {
+            "frame": {
+                "x": 256,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk58.png": {
+            "frame": {
+                "x": 512,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk59.png": {
+            "frame": {
+                "x": 768,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk60.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk61.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk62.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk63.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk64.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk65.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk66.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk67.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk68.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk69.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk70.png": {
+            "frame": {
+                "x": 0,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk71.png": {
+            "frame": {
+                "x": 256,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk72.png": {
+            "frame": {
+                "x": 512,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk73.png": {
+            "frame": {
+                "x": 768,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk74.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk75.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk76.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk77.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk78.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk79.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk80.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk81.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk82.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk83.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk84.png": {
+            "frame": {
+                "x": 0,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk85.png": {
+            "frame": {
+                "x": 256,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk86.png": {
+            "frame": {
+                "x": 512,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk87.png": {
+            "frame": {
+                "x": 768,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk88.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk89.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk90.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk91.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk92.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk93.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk94.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk95.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk96.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk97.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk98.png": {
+            "frame": {
+                "x": 0,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk99.png": {
+            "frame": {
+                "x": 256,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk100.png": {
+            "frame": {
+                "x": 512,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk101.png": {
+            "frame": {
+                "x": 768,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk102.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk103.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk104.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk105.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk106.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk107.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk108.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk109.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk110.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk111.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk112.png": {
+            "frame": {
+                "x": 0,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk113.png": {
+            "frame": {
+                "x": 256,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk114.png": {
+            "frame": {
+                "x": 512,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk115.png": {
+            "frame": {
+                "x": 768,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk116.png": {
+            "frame": {
+                "x": 1024,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk117.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk118.png": {
+            "frame": {
+                "x": 1536,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk119.png": {
+            "frame": {
+                "x": 1792,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk120.png": {
+            "frame": {
+                "x": 2048,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk121.png": {
+            "frame": {
+                "x": 2304,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk122.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk123.png": {
+            "frame": {
+                "x": 2816,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk124.png": {
+            "frame": {
+                "x": 3072,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk125.png": {
+            "frame": {
+                "x": 3328,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk126.png": {
+            "frame": {
+                "x": 0,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk127.png": {
+            "frame": {
+                "x": 256,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk128.png": {
+            "frame": {
+                "x": 512,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk129.png": {
+            "frame": {
+                "x": 768,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk130.png": {
+            "frame": {
+                "x": 1024,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk131.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk132.png": {
+            "frame": {
+                "x": 1536,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk133.png": {
+            "frame": {
+                "x": 1792,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk134.png": {
+            "frame": {
+                "x": 2048,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk135.png": {
+            "frame": {
+                "x": 2304,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk136.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk137.png": {
+            "frame": {
+                "x": 2816,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk138.png": {
+            "frame": {
+                "x": 3072,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk139.png": {
+            "frame": {
+                "x": 3328,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk140.png": {
+            "frame": {
+                "x": 0,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk141.png": {
+            "frame": {
+                "x": 256,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk142.png": {
+            "frame": {
+                "x": 512,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk143.png": {
+            "frame": {
+                "x": 768,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk144.png": {
+            "frame": {
+                "x": 1024,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk145.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk146.png": {
+            "frame": {
+                "x": 1536,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk147.png": {
+            "frame": {
+                "x": 1792,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk148.png": {
+            "frame": {
+                "x": 2048,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk149.png": {
+            "frame": {
+                "x": 2304,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk150.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk151.png": {
+            "frame": {
+                "x": 2816,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk152.png": {
+            "frame": {
+                "x": 3072,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk153.png": {
+            "frame": {
+                "x": 3328,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk154.png": {
+            "frame": {
+                "x": 0,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk155.png": {
+            "frame": {
+                "x": 256,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk156.png": {
+            "frame": {
+                "x": 512,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk157.png": {
+            "frame": {
+                "x": 768,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk158.png": {
+            "frame": {
+                "x": 1024,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk159.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk160.png": {
+            "frame": {
+                "x": 1536,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk161.png": {
+            "frame": {
+                "x": 1792,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk162.png": {
+            "frame": {
+                "x": 2048,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk163.png": {
+            "frame": {
+                "x": 2304,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk164.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk165.png": {
+            "frame": {
+                "x": 2816,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk166.png": {
+            "frame": {
+                "x": 3072,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk167.png": {
+            "frame": {
+                "x": 3328,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk168.png": {
+            "frame": {
+                "x": 0,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk169.png": {
+            "frame": {
+                "x": 256,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk170.png": {
+            "frame": {
+                "x": 512,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk171.png": {
+            "frame": {
+                "x": 768,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk172.png": {
+            "frame": {
+                "x": 1024,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk173.png": {
+            "frame": {
+                "x": 1280,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk174.png": {
+            "frame": {
+                "x": 1536,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk175.png": {
+            "frame": {
+                "x": 1792,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk176.png": {
+            "frame": {
+                "x": 2048,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk177.png": {
+            "frame": {
+                "x": 2304,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk178.png": {
+            "frame": {
+                "x": 2560,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk179.png": {
+            "frame": {
+                "x": 2816,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk180.png": {
+            "frame": {
+                "x": 3072,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk181.png": {
+            "frame": {
+                "x": 3328,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk182.png": {
+            "frame": {
+                "x": 0,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk183.png": {
+            "frame": {
+                "x": 256,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk184.png": {
+            "frame": {
+                "x": 512,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk185.png": {
+            "frame": {
+                "x": 768,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk186.png": {
+            "frame": {
+                "x": 1024,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk187.png": {
+            "frame": {
+                "x": 1280,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk188.png": {
+            "frame": {
+                "x": 1536,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk189.png": {
+            "frame": {
+                "x": 1792,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk190.png": {
+            "frame": {
+                "x": 2048,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_Walk191.png": {
+            "frame": {
+                "x": 2304,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        }
+    },
+    "animations": {
+        "standEast": [
+            "Boss_Samurai_Walk0.png",
+            "Boss_Samurai_Walk1.png",
+            "Boss_Samurai_Walk2.png"
+        ],
+        "moveEast": [
+            "Boss_Samurai_Walk3.png",
+            "Boss_Samurai_Walk4.png",
+            "Boss_Samurai_Walk5.png",
+            "Boss_Samurai_Walk6.png",
+            "Boss_Samurai_Walk7.png",
+            "Boss_Samurai_Walk8.png",
+            "Boss_Samurai_Walk9.png",
+            "Boss_Samurai_Walk10.png",
+            "Boss_Samurai_Walk11.png",
+            "Boss_Samurai_Walk12.png",
+            "Boss_Samurai_Walk13.png",
+            "Boss_Samurai_Walk14.png",
+            "Boss_Samurai_Walk15.png",
+            "Boss_Samurai_Walk16.png",
+            "Boss_Samurai_Walk17.png",
+            "Boss_Samurai_Walk18.png",
+            "Boss_Samurai_Walk19.png",
+            "Boss_Samurai_Walk20.png",
+            "Boss_Samurai_Walk21.png",
+            "Boss_Samurai_Walk22.png",
+            "Boss_Samurai_Walk23.png"
+        ],
+        "standNorth": [
+            "Boss_Samurai_Walk24.png",
+            "Boss_Samurai_Walk25.png",
+            "Boss_Samurai_Walk26.png"
+        ],
+        "moveNorth": [
+            "Boss_Samurai_Walk27.png",
+            "Boss_Samurai_Walk28.png",
+            "Boss_Samurai_Walk29.png",
+            "Boss_Samurai_Walk30.png",
+            "Boss_Samurai_Walk31.png",
+            "Boss_Samurai_Walk32.png",
+            "Boss_Samurai_Walk33.png",
+            "Boss_Samurai_Walk34.png",
+            "Boss_Samurai_Walk35.png",
+            "Boss_Samurai_Walk36.png",
+            "Boss_Samurai_Walk37.png",
+            "Boss_Samurai_Walk38.png",
+            "Boss_Samurai_Walk39.png",
+            "Boss_Samurai_Walk40.png",
+            "Boss_Samurai_Walk41.png",
+            "Boss_Samurai_Walk42.png",
+            "Boss_Samurai_Walk43.png",
+            "Boss_Samurai_Walk44.png",
+            "Boss_Samurai_Walk45.png",
+            "Boss_Samurai_Walk46.png",
+            "Boss_Samurai_Walk47.png"
+        ],
+        "standNorthEast": [
+            "Boss_Samurai_Walk48.png",
+            "Boss_Samurai_Walk49.png",
+            "Boss_Samurai_Walk50.png"
+        ],
+        "moveNorthEast": [
+            "Boss_Samurai_Walk51.png",
+            "Boss_Samurai_Walk52.png",
+            "Boss_Samurai_Walk53.png",
+            "Boss_Samurai_Walk54.png",
+            "Boss_Samurai_Walk55.png",
+            "Boss_Samurai_Walk56.png",
+            "Boss_Samurai_Walk57.png",
+            "Boss_Samurai_Walk58.png",
+            "Boss_Samurai_Walk59.png",
+            "Boss_Samurai_Walk60.png",
+            "Boss_Samurai_Walk61.png",
+            "Boss_Samurai_Walk62.png",
+            "Boss_Samurai_Walk63.png",
+            "Boss_Samurai_Walk64.png",
+            "Boss_Samurai_Walk65.png",
+            "Boss_Samurai_Walk66.png",
+            "Boss_Samurai_Walk67.png",
+            "Boss_Samurai_Walk68.png",
+            "Boss_Samurai_Walk69.png",
+            "Boss_Samurai_Walk70.png",
+            "Boss_Samurai_Walk71.png"
+        ],
+        "standNorthWest": [
+            "Boss_Samurai_Walk72.png",
+            "Boss_Samurai_Walk73.png",
+            "Boss_Samurai_Walk74.png"
+        ],
+        "moveNorthWest": [
+            "Boss_Samurai_Walk75.png",
+            "Boss_Samurai_Walk76.png",
+            "Boss_Samurai_Walk77.png",
+            "Boss_Samurai_Walk78.png",
+            "Boss_Samurai_Walk79.png",
+            "Boss_Samurai_Walk80.png",
+            "Boss_Samurai_Walk81.png",
+            "Boss_Samurai_Walk81.png",
+            "Boss_Samurai_Walk82.png",
+            "Boss_Samurai_Walk83.png",
+            "Boss_Samurai_Walk84.png",
+            "Boss_Samurai_Walk85.png",
+            "Boss_Samurai_Walk86.png",
+            "Boss_Samurai_Walk87.png",
+            "Boss_Samurai_Walk88.png",
+            "Boss_Samurai_Walk89.png",
+            "Boss_Samurai_Walk90.png",
+            "Boss_Samurai_Walk91.png",
+            "Boss_Samurai_Walk92.png",
+            "Boss_Samurai_Walk93.png",
+            "Boss_Samurai_Walk94.png"
+        ],
+        "standSouth": [
+            "Boss_Samurai_Walk95.png",
+            "Boss_Samurai_Walk96.png",
+            "Boss_Samurai_Walk97.png"
+        ],
+        "moveSouth": [
+            "Boss_Samurai_Walk98.png",
+            "Boss_Samurai_Walk99.png",
+            "Boss_Samurai_Walk100.png",
+            "Boss_Samurai_Walk101.png",
+            "Boss_Samurai_Walk102.png",
+            "Boss_Samurai_Walk103.png",
+            "Boss_Samurai_Walk104.png",
+            "Boss_Samurai_Walk105.png",
+            "Boss_Samurai_Walk106.png",
+            "Boss_Samurai_Walk107.png",
+            "Boss_Samurai_Walk108.png",
+            "Boss_Samurai_Walk109.png",
+            "Boss_Samurai_Walk110.png",
+            "Boss_Samurai_Walk111.png",
+            "Boss_Samurai_Walk112.png",
+            "Boss_Samurai_Walk113.png",
+            "Boss_Samurai_Walk114.png",
+            "Boss_Samurai_Walk115.png",
+            "Boss_Samurai_Walk116.png",
+            "Boss_Samurai_Walk117.png",
+            "Boss_Samurai_Walk118.png"
+        ],
+        "standSouthEast": [
+            "Boss_Samurai_Walk119.png",
+            "Boss_Samurai_Walk120.png",
+            "Boss_Samurai_Walk121.png"
+        ],
+        "moveSouthEast": [
+            "Boss_Samurai_Walk122.png",
+            "Boss_Samurai_Walk123.png",
+            "Boss_Samurai_Walk124.png",
+            "Boss_Samurai_Walk125.png",
+            "Boss_Samurai_Walk126.png",
+            "Boss_Samurai_Walk127.png",
+            "Boss_Samurai_Walk128.png",
+            "Boss_Samurai_Walk129.png",
+            "Boss_Samurai_Walk131.png",
+            "Boss_Samurai_Walk132.png",
+            "Boss_Samurai_Walk133.png",
+            "Boss_Samurai_Walk134.png",
+            "Boss_Samurai_Walk135.png",
+            "Boss_Samurai_Walk136.png",
+            "Boss_Samurai_Walk137.png",
+            "Boss_Samurai_Walk138.png",
+            "Boss_Samurai_Walk139.png",
+            "Boss_Samurai_Walk140.png",
+            "Boss_Samurai_Walk141.png",
+            "Boss_Samurai_Walk142.png",
+            "Boss_Samurai_Walk143.png"
+        ],
+        "standSouthWest": [
+            "Boss_Samurai_Walk144.png",
+            "Boss_Samurai_Walk145.png",
+            "Boss_Samurai_Walk146.png"
+        ],
+        "moveSouthWest": [
+            "Boss_Samurai_Walk147.png",
+            "Boss_Samurai_Walk148.png",
+            "Boss_Samurai_Walk149.png",
+            "Boss_Samurai_Walk150.png",
+            "Boss_Samurai_Walk151.png",
+            "Boss_Samurai_Walk152.png",
+            "Boss_Samurai_Walk153.png",
+            "Boss_Samurai_Walk154.png",
+            "Boss_Samurai_Walk155.png",
+            "Boss_Samurai_Walk156.png",
+            "Boss_Samurai_Walk157.png",
+            "Boss_Samurai_Walk158.png",
+            "Boss_Samurai_Walk159.png",
+            "Boss_Samurai_Walk160.png",
+            "Boss_Samurai_Walk161.png",
+            "Boss_Samurai_Walk162.png",
+            "Boss_Samurai_Walk163.png",
+            "Boss_Samurai_Walk164.png",
+            "Boss_Samurai_Walk165.png",
+            "Boss_Samurai_Walk166.png",
+            "Boss_Samurai_Walk167.png"
+        ],
+        "moveWest": [
+            "Boss_Samurai_Walk168.png",
+            "Boss_Samurai_Walk169.png",
+            "Boss_Samurai_Walk170.png",
+            "Boss_Samurai_Walk171.png",
+            "Boss_Samurai_Walk172.png",
+            "Boss_Samurai_Walk173.png",
+            "Boss_Samurai_Walk174.png",
+            "Boss_Samurai_Walk175.png",
+            "Boss_Samurai_Walk176.png",
+            "Boss_Samurai_Walk177.png",
+            "Boss_Samurai_Walk178.png",
+            "Boss_Samurai_Walk179.png",
+            "Boss_Samurai_Walk180.png",
+            "Boss_Samurai_Walk181.png",
+            "Boss_Samurai_Walk182.png",
+            "Boss_Samurai_Walk183.png",
+            "Boss_Samurai_Walk184.png",
+            "Boss_Samurai_Walk185.png",
+            "Boss_Samurai_Walk186.png",
+            "Boss_Samurai_Walk187.png",
+            "Boss_Samurai_Walk188.png"
+        ]
+    },
+    "meta": {
+        "app": "https://github.com/piskelapp/piskel/",
+        "version": "1.0",
+        "image": "Boss_Samurai_Walk.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 3584,
+            "h": 3584
+        }
+    }
+}
