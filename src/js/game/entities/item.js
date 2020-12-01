@@ -13,8 +13,9 @@ export default class Item extends BaseEntity{
 
   }
   draw = (context, camera) => {
+    super.draw(context, camera)
     context.drawImage(this.sprite, this.x - camera.position.x, this.y - camera.position.y, this.width, this.height)
-    context.strokeRect(this.x - camera.position.x, this.y - camera.position.y, this.width, this.height)
+    //this.drawHitbox(context, camera)
   }
 
 }

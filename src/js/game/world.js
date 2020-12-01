@@ -16,11 +16,13 @@ export default class World {
   constructor(conf){
     const config = Object.assign(defaultConfig, conf)
     console.log('config :>> ', config);
+
     this.entities = config.entities
     this.level = config.level
     this.camera = config.camera
     this.renderer = config.renderer
     this.canvas = config.canvas
+
     if (this.canvas != null) {
       this.context = this.canvas.getContext('2d')
       this.canvas.height = config.width
@@ -28,9 +30,6 @@ export default class World {
     }
     this.width = config.width
     this.height = config.height
-
-    
-
     // Create Renderer
     // this.renderer.addLayer(backgroundLayer)
     // this.renderer.addLayer(spriteLayer)
@@ -40,6 +39,7 @@ export default class World {
     if (this.renderer) this.renderer.addLayer(entity)
     console.log("Entitie?", this.entities);
   }
+  
   start = () => {
     requestAnimationFrame(this.gameLoop)
   }
@@ -52,7 +52,7 @@ export default class World {
     entityNames.forEach(name => {
       const entity = this.entities[name]
       if (entity.update) entity.update(deltaTime)
-      
+      // Collision detection
       entityNames.forEach(otherName => {
         const otherEntity = this.entities[otherName]
         if (entity !== otherEntity){
