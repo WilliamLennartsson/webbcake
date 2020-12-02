@@ -2,7 +2,7 @@ import BaseEntity from'./baseEntity'
 import AnimationManager from'../animationManager'
 import SpriteSheetAnimationManager from'../spriteSheetAnimator'
 import KeyboardManager from '../keyboardInputManager'
-import Camera from '../camera'
+// import Camera from '../camera'
 
 export default class Player extends BaseEntity {
   constructor(model, x, y) {
@@ -34,6 +34,10 @@ export default class Player extends BaseEntity {
       }
     // Input
     this.keyboardManager = new KeyboardManager() 
+  }
+
+  consume = (consumable) => {
+    consumable.consume(this)
   }
 
   draw = (context, camera) => {

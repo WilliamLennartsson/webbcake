@@ -1,6 +1,7 @@
 import { loadLevel, loadGameAssets } from './loaders'
 import SpriteSheet from './spriteSheet'
 import Player from './entities/player'
+import Consumable from './entities/consumable'
 import Item from './entities/item'
 
 import BackgroundLayer from './layers/backgroundLayer'
@@ -38,20 +39,25 @@ window.onload = () => {
     const renderer = new Renderer(camera)
     renderer.addLayer(backgroundLayer)
 
-    const samuraiSpriteSheet = new SpriteSheet(assets.tilesets.player.spriteSheet, 256, 256)
+    const samuraiSpriteSheet = new SpriteSheet(assets.tilesets.player.image, 256, 256)
     console.log('assets.tilesets.player.data :>> ', assets.tilesets.player.spriteSheet);
-    const player = new Player({spriteSheet: samuraiSpriteSheet, data: assets.tilesets.player.data}, 400, 300)    
+    const player = new Player({spriteSheet: samuraiSpriteSheet, data: assets.tilesets.player.data}, 400, 300)
+      
     player.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/
     // const spriteLayer = new SpriteLayer(playerTileset, level)
     const sword = new Item(assets.images.sword, 200, 200, 100, 100)
-    const sword2 = new Item(assets.images.sword, 650, 300, 100, 100)
+    const sword2 = new Consumable(assets.images.sword, 650, 300, 100, 100, (entity) => {
+      console.log("SWORD PICKED UP!!!")
+      entity.health = 1000000
+      console.log('Funkade potions? entity :>> ', entity);
+    })
     
     // renderer.addLayer(spriteLayer)
     // TODO: Screen component
     const world = new World({ canvas, renderer, level, camera, width, height })
     world.addEntity('player', player)
-    world.addEntity('sword', sword)
-    world.addEntity('sword2', sword2)
+    world.addConsumable(sword)
+    world.addConsumable(sword2)
     world.start() 
 
   })

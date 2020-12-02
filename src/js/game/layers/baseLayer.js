@@ -7,4 +7,5 @@ export default class BaseLayer {
   draw = (context) => {
 
   }
+  consume = (consumable) => {}
 }

@@ -26,7 +26,7 @@ export const loadGameAssets = () => {
       resolve({
         tilesets: {
           background: backgroundTileset, // fix so it looks like the others
-          player: {spriteSheet: samuraiSpriteset, data: samuraiWalkData},
+          player: {image: samuraiSpriteset, data: samuraiWalkData},
           wizard: {sprite: wizard},
         },
         images: {

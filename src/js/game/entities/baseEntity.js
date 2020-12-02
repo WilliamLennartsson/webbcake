@@ -14,5 +14,6 @@ export default class Entity {
     context.lineWidth = 4
     context.strokeRect(this.x - camera.position.x, this.y - camera.position.y, this.width, this.height)
   }
-  update() {}
+  update = () => {}
+  consume = (consumable) => {}
 }

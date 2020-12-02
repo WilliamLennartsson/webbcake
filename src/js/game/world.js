@@ -18,6 +18,7 @@ export default class World {
     console.log('config :>> ', config);
 
     this.entities = config.entities
+    this.consumables = []
     this.level = config.level
     this.camera = config.camera
     this.renderer = config.renderer
@@ -39,7 +40,12 @@ export default class World {
     if (this.renderer) this.renderer.addLayer(entity)
     console.log("Entitie?", this.entities);
   }
-  
+  addConsumable = (item) => {
+    this.consumables.push(item)
+  }
+  removeConsumable = (item) => {
+    this.consumables.remove(item)
+  }
   start = () => {
     requestAnimationFrame(this.gameLoop)
   }
@@ -52,7 +58,7 @@ export default class World {
     entityNames.forEach(name => {
       const entity = this.entities[name]
       if (entity.update) entity.update(deltaTime)
-      // Collision detection
+      // Collision detection with other entities
       entityNames.forEach(otherName => {
         const otherEntity = this.entities[otherName]
         if (entity !== otherEntity){
@@ -60,6 +66,9 @@ export default class World {
             console.log("Holy shit")
           }
         }
+      })
+      this.consumables.forEach(consumable => {
+        if (this.isCollision(entity, consumable)) entity.consume(consumable)
       })
     })
   }
@@ -74,6 +83,7 @@ export default class World {
     if (this.renderer) {
       this.renderer.clear(this.context, this.width, this.width)
       this.renderer.draw(this.context)
+      this.consumables.forEach(consumable => consumable.draw(this.context, this.camera))
     }
     this.update(time) // TODO: Convert to deltaTime before passing in
     // samuraiPlayer.update()
