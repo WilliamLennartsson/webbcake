@@ -2,10 +2,12 @@
 import Item from './item'
 
 export default class Consumable extends Item{
-  constructor(sprite, x, y, width, height, onPickup) {
+  constructor(sprite, {x = 0, y = 0, width = 0, height = 0, destroyOnPickup = false, onPickup = () => {} } ) {
     super(sprite, x, y, width, height)
     this.sprite = sprite
     this.onPickup = onPickup
+    this.destroyOnPickup = destroyOnPickup
+    this.isConsumed = false
   }
   update = (deltaTime) => {
 
@@ -14,7 +16,8 @@ export default class Consumable extends Item{
     super.draw(context, camera)
   }
   consume = (entity) => {
+    if (this.isConsumed) return
     if (this.onPickup) this.onPickup(entity)
-    else return () => {}
+    if (this.destroyOnPickup) this.isConsumed = true
   }
 }

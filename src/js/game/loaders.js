@@ -34,7 +34,7 @@ export const loadGameAssets = () => {
           }
       })
     })
-  })  
+  })
 }
 
 const loadImage = (url) => new Promise(resolve => {

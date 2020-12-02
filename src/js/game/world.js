@@ -68,8 +68,11 @@ export default class World {
         }
       })
       this.consumables.forEach(consumable => {
-        if (this.isCollision(entity, consumable)) entity.consume(consumable)
+        if (!consumable.isConsumed && this.isCollision(entity, consumable)) entity.consume(consumable)
       })
+      for (let i = this.consumables.length - 1; i >= 0; i--) {
+        if (this.consumables[i].isConsumed) this.consumables.splice(i, 1)
+      }
     })
   }
   isCollision = (e1, e2) => {

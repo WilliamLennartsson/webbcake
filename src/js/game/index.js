@@ -46,10 +46,17 @@ window.onload = () => {
     player.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/
     // const spriteLayer = new SpriteLayer(playerTileset, level)
     const sword = new Item(assets.images.sword, 200, 200, 100, 100)
-    const sword2 = new Consumable(assets.images.sword, 650, 300, 100, 100, (entity) => {
-      console.log("SWORD PICKED UP!!!")
-      entity.health = 1000000
-      console.log('Funkade potions? entity :>> ', entity);
+    const sword2 = new Consumable(assets.images.sword, {
+      x: 650, 
+      y: 300,
+      width: 100,
+      height: 100,
+      destroyOnPickup: true,
+      onPickup: (entity) => {
+        console.log("SWORD PICKED UP!!!")
+        entity.health = 1000000
+        // console.log('Funkade potions? entity :>> ', entity)
+      }
     })
     
     // renderer.addLayer(spriteLayer)
