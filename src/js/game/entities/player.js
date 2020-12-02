@@ -6,9 +6,8 @@ import KeyboardManager from '../keyboardInputManager'
 
 export default class Player extends BaseEntity {
   constructor(model, x, y) {
-    // Rendering
     super()
-    console.log('this :>> ', this);
+    // Rendering / Animations
     if (model.sprite){ // Sprite rendering + folder images animation rendering
       this.sprite = model.sprite
       this.animationManager = new AnimationManager()
@@ -21,6 +20,10 @@ export default class Player extends BaseEntity {
       this.animationManager = new SpriteSheetAnimationManager(model)
       this.animationManager.play('standEast')
     }
+    // Game
+    this.maxHealth = 100
+    this.health = 100
+    this.isDead = false
     // Body
     this.x = x
     this.y = y
@@ -34,6 +37,10 @@ export default class Player extends BaseEntity {
       }
     // Input
     this.keyboardManager = new KeyboardManager() 
+  }
+
+  bindUiCallback = (callback) => {
+    this.uICallback = callback
   }
 
   consume = (consumable) => {
@@ -58,7 +65,6 @@ export default class Player extends BaseEntity {
     const lastDir = this.dir
     const dir = this.getDir()
     this.dir = dir
-
     // Moves player 
     if (!this.isIdle()) this.movePlayer(dir) // Only move if there is movement
 
@@ -70,6 +76,7 @@ export default class Player extends BaseEntity {
     // Update components
     this.animationManager.update()
     this.keyboardManager.update()
+    if (this.uICallback) this.uICallback(this)
   }
 
   getDir = () => {

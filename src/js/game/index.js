@@ -5,6 +5,7 @@ import Consumable from './entities/consumable'
 import Item from './entities/item'
 
 import BackgroundLayer from './layers/backgroundLayer'
+import UiLayer from './layers/uiLayer'
 import SpriteLayer from './layers/spriteLayer'
 
 import Camera from './camera'
@@ -20,30 +21,33 @@ const canvas = document.getElementById('gameScreen')
      * Fix layers!
      * Safe array
      * Better component system
-     * 
      */
 window.onload = () => {
-  console.log(canvas)
+  // console.log(canvas)
   loadGameAssets()
   .then((assets) => {
-    const width =  window.innerWidth - 20
-    const height =  window.innerHeight - 20
-    // Create World. LoadMap
-    const level = loadLevel('level1')
-    // Camera
-    const camera = new Camera(-((width - 50) / 2), -((height - 150) / 2))
-
-    // Create BackgroundLayer
-    const backgroundLayer = new BackgroundLayer(assets.tilesets.background, level)
-
-    const renderer = new Renderer(camera)
+    const width =  window.innerWidth - 20 // Canvas width
+    const height =  window.innerHeight - 20 // canvas height
+    const level = loadLevel('level1') // Create World. LoadMap
+    
+    const camera = new Camera(-((width - 50) / 2), -((height - 150) / 2)) // Camera
+    const renderer = new Renderer(camera)                                 // Renderer
+    
+    // Create Layers
+    const backgroundLayer = new BackgroundLayer(assets.tilesets.background, level)  // BackgroundLayer
+    const uiLayer = new UiLayer()                                                   // UiLayer
     renderer.addLayer(backgroundLayer)
+    renderer.addLayer(uiLayer)
 
+    // Player
     const samuraiSpriteSheet = new SpriteSheet(assets.tilesets.player.image, 256, 256)
-    console.log('assets.tilesets.player.data :>> ', assets.tilesets.player.spriteSheet);
+    // console.log('assets.tilesets.player.data :>> ', assets.tilesets.player.spriteSheet);
     const player = new Player({spriteSheet: samuraiSpriteSheet, data: assets.tilesets.player.data}, 400, 300)
-      
     player.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/
+
+    player.bindUiCallback((player) => {
+      uiLayer.playerUpdated(player)
+    })
     // const spriteLayer = new SpriteLayer(playerTileset, level)
     const world = new World({ canvas, renderer, level, camera, width, height })
     world.addEntity('player', player)
@@ -51,9 +55,7 @@ window.onload = () => {
     const sword = new Item(assets.images.sword, 200, 200, 100, 100)
     world.addConsumable(sword)
       
-    console.log('new Array(20) :>> ', new Array(20).fill(0).map(e => {return "hej"}))
-    new Array(20).fill(0).map((e, i) => {
-      console.log("hej");
+    new Array(20).fill(0).map((e, i) => { // Dumb way to loop 20 times
       const sword2 = new Consumable(assets.images.sword, {
         x: 140 * i, 
         y: 50 * i,
@@ -62,7 +64,7 @@ window.onload = () => {
         destroyOnPickup: true,
         onPickup: (entity) => {
           console.log("SWORD PICKED UP!!!")
-          entity.health = 1000000
+          entity.health -= 20
           // console.log('Funkade potions? entity :>> ', entity)
         }
       })

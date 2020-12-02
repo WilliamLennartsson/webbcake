@@ -14,6 +14,7 @@ export default class Consumable extends Item{
   }
   draw = (context, camera) => {
     super.draw(context, camera)
+    context.drawImage(this.sprite, this.x - camera.position.x, this.y - camera.position.y, this.width, this.height)
   }
   consume = (entity) => {
     if (this.isConsumed) return
