@@ -45,26 +45,32 @@ window.onload = () => {
       
     player.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/
     // const spriteLayer = new SpriteLayer(playerTileset, level)
+    const world = new World({ canvas, renderer, level, camera, width, height })
+    world.addEntity('player', player)
+
     const sword = new Item(assets.images.sword, 200, 200, 100, 100)
-    const sword2 = new Consumable(assets.images.sword, {
-      x: 650, 
-      y: 300,
-      width: 100,
-      height: 100,
-      destroyOnPickup: true,
-      onPickup: (entity) => {
-        console.log("SWORD PICKED UP!!!")
-        entity.health = 1000000
-        // console.log('Funkade potions? entity :>> ', entity)
-      }
+    world.addConsumable(sword)
+      
+    console.log('new Array(20) :>> ', new Array(20).fill(0).map(e => {return "hej"}))
+    new Array(20).fill(0).map((e, i) => {
+      console.log("hej");
+      const sword2 = new Consumable(assets.images.sword, {
+        x: 140 * i, 
+        y: 50 * i,
+        width: 100,
+        height: 100,
+        destroyOnPickup: true,
+        onPickup: (entity) => {
+          console.log("SWORD PICKED UP!!!")
+          entity.health = 1000000
+          // console.log('Funkade potions? entity :>> ', entity)
+        }
+      })
+      world.addConsumable(sword2)
     })
     
     // renderer.addLayer(spriteLayer)
-    // TODO: Screen component
-    const world = new World({ canvas, renderer, level, camera, width, height })
-    world.addEntity('player', player)
-    world.addConsumable(sword)
-    world.addConsumable(sword2)
+    // TODO: Screen component    
     world.start() 
 
   })
