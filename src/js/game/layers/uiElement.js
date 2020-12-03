@@ -6,7 +6,7 @@ export default class UiElement {
     this.width = width
     this.height = height
   }
-  draw = (context, camera) => {
+  draw = (context) => {
     context.strokeStyle = "red"
     context.strokeRect(this.x, this.y, this.width, this.height)
   }

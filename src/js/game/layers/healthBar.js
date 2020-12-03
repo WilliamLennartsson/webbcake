@@ -7,17 +7,18 @@ export default class HealthBar extends UiElement {
     this.y = y
     this.width = width
     this.height = height
-    this.maxHealth = 0
+    this.max = 0
+    this.current = 0
   }
-  update = (player) => {
-    this.maxHealth = player.maxHealth
-    this.health = player.health
+  update = (max, current) => {
+    this.max = max
+    this.current = current
   }
 
-  draw = (context, camera) => {
-    const {x, y, width, height, health, maxHealth} = this
+  draw = (context) => {
+    const {x, y, width, height, current, max} = this
     context.strokeRect(x, y, width, height)
-    const calcWidth = (health / maxHealth) * width
+    const calcWidth = (current / max) * width
     context.fillRect(x, y, calcWidth, height)
   }
 }
