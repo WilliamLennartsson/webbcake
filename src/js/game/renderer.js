@@ -9,7 +9,7 @@ export default class Renderer {
   }
   draw = (context) => {
     this.layers.forEach(layer => {
-      layer.draw(context, this.camera)
+      if (layer.draw) layer.draw(context, this.camera)
     })
   }
   addLayer = (layer) => {
