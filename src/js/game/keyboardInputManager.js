@@ -22,16 +22,20 @@ export default class KeyboardInputManager {
       setKey(keyName, pressed);
     };
 
-    addKey(37, 'left');
-    addKey(39, 'right');
-    addKey(38, 'up');
-    addKey(40, 'down');
-    addKey(65, 'aKey');
-    addKey(83, 'sKey');
-    addKey(68, 'dKey');
-    addKey(87, 'wKey');
-    addKey(88, 'bKey');
-    addKey(66, 'space')
+    addKey(37, 'left')
+    addKey(39, 'right')
+    addKey(38, 'up')
+    addKey(40, 'down')
+    addKey(65, 'aKey')
+    addKey(83, 'sKey')
+    addKey(68, 'dKey')
+    addKey(87, 'wKey')
+    addKey(88, 'bKey')
+    addKey(32, 'space')
+    for(let i = 0; i < 10; i++) {
+      // 1 - 9 keys
+      addKey(i + 48, `${i}Key`)
+    }
 
     window.addEventListener('keydown', (e) => {
       setKeyFromKeyCode(e.keyCode, true);
