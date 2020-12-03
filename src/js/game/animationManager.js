@@ -5,7 +5,7 @@ export default class AnimationManager {
   constructor() {
     this.animations = {}
     this.currentAnimation = {frames: [], activeFrameIndex: -1, currentFrame: null}
-    this.animSpeed = 2
+    this.animSpeed = 1
     this.counter = 0
   }
 
@@ -13,8 +13,8 @@ export default class AnimationManager {
 
   }
 
-  load(name, animation, onLoad) {
-    const frames = wizardAnimationFrames[animation].frames
+  load(name, animation, frames, onLoad) {
+    // const frames = wizardAnimationFrames[animation].frames
     const loadingFrames = []
     for (let i = 0; i < frames.length; i++){
       loadingFrames.push(loadImage(frames[i]))
