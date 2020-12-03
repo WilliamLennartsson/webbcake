@@ -3,10 +3,12 @@ import SpriteSheet from './spriteSheet'
 import Player from './entities/player'
 import Consumable from './entities/consumable'
 import Item from './entities/item'
-
 import BackgroundLayer from './layers/backgroundLayer'
 import UiLayer from './layers/uiLayer'
 import SpriteLayer from './layers/spriteLayer'
+import Inventory from './inventory'
+
+import {createPlant} from './entities/entityFactory'
 
 import Camera from './camera'
 import Renderer from './renderer'
@@ -35,26 +37,33 @@ window.onload = () => {
     
     // Create Layers
     const backgroundLayer = new BackgroundLayer(assets.tilesets.background, level)  // BackgroundLayer
-    const uiLayer = new UiLayer()                                                   // UiLayer
+    const uiLayer = new UiLayer(width, height)                                                   // UiLayer
     renderer.addLayer(backgroundLayer)
     renderer.addLayer(uiLayer)
 
-    // Player
-    const samuraiSpriteSheet = new SpriteSheet(assets.tilesets.player.image, 256, 256)
-    // console.log('assets.tilesets.player.data :>> ', assets.tilesets.player.spriteSheet);
-    const player = new Player({spriteSheet: samuraiSpriteSheet, data: assets.tilesets.player.data}, 400, 300)
-    player.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/
+    // World
+    const world = new World({ canvas, renderer, level, camera, width, height })
 
+
+    // Player
+    // console.log('assets.tilesets.player.data :>> ', assets.tilesets.player.spriteSheet);
+    // {spriteSheet: samuraiSpriteSheet, data: assets.tilesets.player.data}
+    const player = new Player(assets.tilesets.player, 400, 300)
+    player.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/
+    player.onDeath = (p) => {
+      // TODO: This is a crash
+      // world.removeEntity('player')
+    }
     player.bindUiCallback((player) => {
       uiLayer.playerUpdated(player)
     })
     // const spriteLayer = new SpriteLayer(playerTileset, level)
-    const world = new World({ canvas, renderer, level, camera, width, height })
     world.addEntity('player', player)
-
-    const sword = new Item(assets.images.sword, 200, 200, 100, 100)
+    
+    const sword = new Item({sprite: assets.images.sword}, 200, 200, 100, 100)
     world.addConsumable(sword)
-      
+    player.pickUpItem(sword)
+    player.inventory.printItems()
     new Array(20).fill(0).map((e, i) => { // Dumb way to loop 20 times
       const sword2 = new Consumable(assets.images.sword, {
         x: 140 * i, 
@@ -65,11 +74,19 @@ window.onload = () => {
         onPickup: (entity) => {
           console.log("SWORD PICKED UP!!!")
           entity.health -= 20
+          entity.pickUpItem(sword2)
+          entity.inventory.printItems()
           // console.log('Funkade potions? entity :>> ', entity)
         }
       })
       world.addConsumable(sword2)
     })
+    // const plant = new Item({sprite: assets.tilesets.wizard.sprite}, 300, 250, 100, 100)
+    // world.addEntity('plant', plant)
+    const plant = createPlant(assets, 100, 100)
+    world.addEntity('plant', plant)
+    
+    // const plant = new Item(assets)
     
     // renderer.addLayer(spriteLayer)
     // TODO: Screen component    
