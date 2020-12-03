@@ -2,14 +2,10 @@
 import {wizardAnimationFrames} from './gameImages/wizardAnimation'
 
 export default class AnimationManager {
-  constructor(model) {
-    const { spriteSheet, data } = model
-    this.model = model
-    // console.log("Data: ", data)
-
-    this.animations = {}
-    this.currentAnimation = {frames: [], activeFrameIndex: -1, currentFrame: null}
-    this.animSpeed = 8
+  constructor() {
+    this.animationGroups = {}
+    this.currentAnimation = {group: "", frames: [], activeFrameIndex: -1, currentFrame: null}
+    this.animSpeed = 7
     this.counter = 0
   }
 
@@ -17,13 +13,23 @@ export default class AnimationManager {
 
   }
 
-  play(animationName) {
+  defineAnimationGroup = (groupName, model) => {
+    this.animationGroups[groupName] = model
+    // console.log('anim :>> ', model);
+    // console.log('this.animations :>> ', this.animationGroups);
+  }
+
+  play(animationGroup, animationName, onComplete) {
+    if (onComplete) this.onComplete = onComplete
+    else this.onComplete = null
     // TODO: Fix this shit up. Looks like yo mama
     if (this.currentAnimation.name != null) {
       if (this.currentAnimation.name == animationName) return 
     }
-
-    const { data, spriteSheet } = this.model
+    
+    // console.log('this.animationGroups :>> ', this.animationGroups, animationName);
+    const { data, spriteSheet } = this.animationGroups[animationGroup]
+    // console.log('data, spriteSheet :>> ', data, spriteSheet);
     const animationFrames = data.animations[animationName]
     this.currentAnimation.frames = animationFrames.map(frame => {
       const frameData = data.frames[frame]
@@ -35,6 +41,7 @@ export default class AnimationManager {
     })
     this.currentAnimation.activeFrameIndex = 0
     this.currentAnimation.name = animationName
+    this.currentAnimation.group = animationGroup
     this.currentAnimation.currentFrame = this.currentAnimation.frames[this.currentAnimation.activeFrameIndex]
   }
 
@@ -46,7 +53,11 @@ export default class AnimationManager {
     if (this.counter >= this.animSpeed) {
       this.counter = 0
       currAnim.activeFrameIndex++ // Increment frame
-      if (currAnim.activeFrameIndex >= currAnim.frames.length) currAnim.activeFrameIndex = 0 // New loop
+      // New loop or onComplete
+      if (currAnim.activeFrameIndex >= currAnim.frames.length) {
+        if (this.onComplete) this.onComplete()
+        currAnim.activeFrameIndex = 0 
+      }
       currAnim.currentFrame = currAnim.frames[currAnim.activeFrameIndex]
     }
   }
@@ -55,7 +66,7 @@ export default class AnimationManager {
     if (this.currentAnimation.frames.length == 0) return null
     if (this.currentAnimation.activeFrameIndex == -1) return this.sprite
     const currentFrameData = this.currentAnimation.frames[this.currentAnimation.activeFrameIndex]
-    const frame = this.model.spriteSheet.getSprite(currentFrameData.name)
+    const frame = this.animationGroups[this.currentAnimation.group].spriteSheet.getSprite(currentFrameData.name)
     return frame
   }
 }
