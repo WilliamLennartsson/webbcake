@@ -1,21 +1,37 @@
 import BaseEntity from './baseEntity'
+import AnimationManager from '../animationManager'
 
 export default class Item extends BaseEntity{
-  constructor(sprite, x, y, width, height, onPickup) {
+  constructor(model = {sprite: null, 
+  animated: false, 
+  frames: null, 
+  animGroupName: "", 
+  animName: ""}, 
+  x, y, width, height, onPickup) {
     super()
-    this.sprite = sprite
+    this.sprite = model.sprite
+    if (model.animated) {
+      this.animationManager = new AnimationManager()
+        this.animationManager.load(model.animGroupName, model.animName, frames, (animation) => {
+          if (animation.status === 'loaded'){
+            this.animationManager.play(animation.name, animation.animation)// hmm. dumb naming right here
+          }
+        })
+    }
     this.x = x
     this.y = y
     this.height = height
     this.width = width
-    this.onPickup
+    this.onPickup = onPickup
   }
   update = (deltaTime) => {
-
+    if (this.animationManager) this.animationManager.update()
   }
   draw = (context, camera) => {
     super.draw(context, camera)
-    context.drawImage(this.sprite, this.x - camera.position.x, this.y - camera.position.y, this.width, this.height)
+    const animFrame = this.animationManager ? this.animationManager.getFrame() : null
+    const spriteToDraw = animFrame != null ? animFrame : this.sprite
+    context.drawImage(spriteToDraw, this.x - camera.position.x, this.y - camera.position.y, this.width, this.height)
     //this.drawHitbox(context, camera)
   }
 }
