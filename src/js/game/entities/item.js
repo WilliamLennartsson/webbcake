@@ -6,13 +6,16 @@ export default class Item extends BaseEntity{
   animated: false, 
   frames: null, 
   animGroupName: "", 
-  animName: ""}, 
+  animName: "",
+  animSpeed: 1}, 
   x, y, width, height, onPickup) {
     super()
     this.sprite = model.sprite
     if (model.animated) {
       this.animationManager = new AnimationManager()
-        this.animationManager.load(model.animGroupName, model.animName, frames, (animation) => {
+      this.animationManager.animSpeed = model.animSpeed
+      console.log('frames in ITEM :>> ', frames);
+        this.animationManager.load(model.animGroupName, model.animName, model.frames, (animation) => {
           if (animation.status === 'loaded'){
             this.animationManager.play(animation.name, animation.animation)// hmm. dumb naming right here
           }

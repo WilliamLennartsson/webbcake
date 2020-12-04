@@ -19,6 +19,7 @@ export default class AnimationManager {
     for (let i = 0; i < frames.length; i++){
       loadingFrames.push(loadImage(frames[i]))
     }
+    // console.log('frames :>> ', frames);
     Promise.all(loadingFrames)
     .then(loadedFrames => {
       this.animations[name] = {
@@ -33,6 +34,8 @@ export default class AnimationManager {
     this.currentAnimation.activeFrameIndex = 0
     this.currentAnimation.currentFrame = this.currentAnimation.frames[0]
     // console.log(this.currentAnimation)
+    console.log("Play anim", this.currentAnimation)
+
   }
   update() {
     const currAnim = this.currentAnimation

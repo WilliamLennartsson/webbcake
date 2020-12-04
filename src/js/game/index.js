@@ -14,6 +14,8 @@ import Camera from './camera'
 import Renderer from './renderer'
 import World from './world'
 
+// import Client from './client/client'
+
 const canvas = document.getElementById('gameScreen')
 
 /** TODO:
@@ -25,6 +27,7 @@ const canvas = document.getElementById('gameScreen')
      * Better component system
      */
 window.onload = () => {
+  // const client = new Client()
   // console.log(canvas)
   loadGameAssets()
   .then((assets) => {
@@ -83,7 +86,7 @@ window.onload = () => {
     })
     // const plant = new Item({sprite: assets.tilesets.wizard.sprite}, 300, 250, 100, 100)
     // world.addEntity('plant', plant)
-    const plant = createPlant(assets, 100, 100)
+    const plant = createPlant(assets, 200, 400)
     world.addEntity('plant', plant)
     
     // const plant = new Item(assets)
