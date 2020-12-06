@@ -1,5 +1,5 @@
 import character from './gameImages/Char.png'
-import backgroundTileset from './gameImages/overworldTileset/PNG/overworld.png'
+import backgroundTileset from './gameImages/overworldTileset/PNG/tileset.png'
 import samuraiWalkSpriteset from './gameImages/samurai/Boss_Samurai_Walk.png'
 import samuraiWalkData from './gameImages/samurai/Boss_Samurai_Walk.json'
 import samuraiDeathSpriteset from './gameImages/samurai/Boss_Samurai_Death.png'
