@@ -1,8 +1,9 @@
 export default class SpriteSheet {
-  constructor(image, width, height) {
+  constructor(image, width, height, scale = 1) {
     this.image = image
     this.width = width
     this.height = height
+    this.scale = scale
     this.tiles = new Map()
 
   }
@@ -26,7 +27,7 @@ export default class SpriteSheet {
   }
   draw = (name, context, x, y) => {
     const buffer = this.tiles.get(name)
-    context.drawImage(buffer, x, y, this.width, this.height)
+    context.drawImage(buffer, x, y, this.width * this.scale, this.height * this.scale)
   }
   getSprite = (name) => {
     return this.tiles.get(name)

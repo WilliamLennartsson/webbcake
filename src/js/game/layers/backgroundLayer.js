@@ -6,16 +6,21 @@ export default class BackgroundLayer extends BaseLayer{
     // const gridCount = 10
     super()
     this.level = level
-    this.tileCountH = 4
-    this.tileCountW = 4
+    this.tileCountH = 8
+    this.tileCountW = 16
+
     const tileWidth = tileSet.width / this.tileCountW
     const tileHeight = tileSet.height / this.tileCountH
+
     this.tileWidth = tileWidth
     this.tileHeight = tileHeight
-    const backgroundSprites = new SpriteSheet(tileSet, tileWidth, tileHeight)
+    this.bgTileScaleFactor = 3
+    const backgroundSprites = new SpriteSheet(tileSet, tileWidth, tileHeight, this.bgTileScaleFactor)
     defineBackgroundSprites(backgroundSprites, level.world.tileMap)
+
     this.backgroundSprites = backgroundSprites
     console.log('BackgroundSprites 2 :>> ', backgroundSprites)
+    console.log('level.world.tileMap :>> ', level.world.tileMap)
   }
   draw = (context, camera) => {
     const { level, backgroundSprites, tileWidth, tileHeight } = this
@@ -25,8 +30,8 @@ export default class BackgroundLayer extends BaseLayer{
         for (let x = 0; x < tiles[0].length; x++) {
           const tileIndex = tiles[y][x]
           const tile = getTileById(tileIndex, tileMap)
-          const posX = (context, x * tileWidth) - camera.position.x
-          const posY = (y * tileHeight) - camera.position.y
+          const posX = ((x * tileWidth) * this.bgTileScaleFactor) - camera.position.x
+          const posY = ((y * tileHeight) * this.bgTileScaleFactor) - camera.position.y
           backgroundSprites.draw(tile.name, context, posX, posY)
         }
       }
