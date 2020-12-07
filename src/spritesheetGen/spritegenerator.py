@@ -48,7 +48,7 @@ if len(sys.argv) > 1:
                 }
 
         if x + frameWidth == width:
-            x = 0
+            x = 0 - frameWidth
             y += frameHeight
 
         if y == height:

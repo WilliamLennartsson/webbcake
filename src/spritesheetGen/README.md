@@ -1,8 +1,8 @@
 # SpriteSheet Generator #
-How to use:
+# How to use: #
 
-python3 spritegenerator.py <width> <height> <framesPerRow> <framesPerColumn> filename
+`python3 spritegenerator.py width height framesPerRow framesPerColumn filename`
 
-Example:
+# Example: #
 
-python3 spritegenerator.py 640 480 4 4 character.png
+`python3 spritegenerator.py 640 480 4 4 character.png`
