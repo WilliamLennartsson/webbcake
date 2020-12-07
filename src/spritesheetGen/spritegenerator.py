@@ -19,8 +19,8 @@ if len(sys.argv) > 1:
             'app': 'webbcake',
             'image': filename,
             'size': {
-                'w':'',
-                'h':''
+                'w': int(width),
+                'h': int(width)
             }
             }
     x = 0
