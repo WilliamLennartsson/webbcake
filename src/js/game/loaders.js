@@ -4,6 +4,10 @@ import samuraiWalkSpriteset from './gameImages/samurai/Boss_Samurai_Walk.png'
 import samuraiWalkData from './gameImages/samurai/Boss_Samurai_Walk.json'
 import samuraiDeathSpriteset from './gameImages/samurai/Boss_Samurai_Death.png'
 import samuraiDeathData from './gameImages/samurai/Boss_Samurai_Death.json'
+import samuraiMeleeSpriteset from './gameImages/samurai/Boss_Samurai_MeleeAttack.png'
+import samuraiMeleeData from './gameImages/samurai/Boss_Samurai_MeleeAttack.json'
+import samuraiRangedSpriteset from './gameImages/samurai/Boss_Samurai_RangedAttack.png'
+import samuraiRangedData from './gameImages/samurai/Boss_Samurai_RangedAttack.json'
 import level1 from './levels/level1.json'
 import sword from './gameImages/sword.png'
 
@@ -22,21 +26,27 @@ export const loadGameAssets = () => {
       loadSamuraiSpriteset(),
       loadImage(sword),
       loadImage(samuraiDeathSpriteset),
-      loadImage(plantImage1)
+      loadImage(plantImage1),
+      loadImage(samuraiMeleeSpriteset),
+      loadImage(samuraiRangedSpriteset)
     ]).then(([
       wizard,
       backgroundTileset,
       samuraiWalkSpriteset,
       sword,
       samuraiDeathSpriteset,
-      plantImage
+      plantImage,
+      samuraiMeleeSpriteset,
+      samuraiRangedSpriteset
     ]) => {
       resolve({
         tilesets: {
           background: backgroundTileset, // fix so it looks like the others
           player: {
             walk: {spriteSheet: samuraiWalkSpriteset, data: samuraiWalkData},
-            death: {spriteSheet: samuraiDeathSpriteset, data: samuraiDeathData }
+            death: {spriteSheet: samuraiDeathSpriteset, data: samuraiDeathData },
+            melee: {spriteSheet: samuraiMeleeSpriteset, data: samuraiMeleeData},
+            ranged: {spriteSheet: samuraiRangedSpriteset, data: samuraiRangedData}
           },
           wizard: {sprite: wizard},
         },

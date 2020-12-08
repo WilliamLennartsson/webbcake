@@ -3949,7 +3949,7 @@
         "mAttackSouth": [
             "Boss_Samurai_MeleeAttack96.png",
             "Boss_Samurai_MeleeAttack97.png",
-            "Boss_Samurai_MeleeAttack98png",
+            "Boss_Samurai_MeleeAttack98.png",
             "Boss_Samurai_MeleeAttack99.png",
             "Boss_Samurai_MeleeAttack100.png",
             "Boss_Samurai_MeleeAttack101.png",
@@ -4050,15 +4050,15 @@
             "Boss_Samurai_MeleeAttack190.png",
             "Boss_Samurai_MeleeAttack191.png"
         ],
-    "meta": {
-        "app": "https://github.com/piskelapp/piskel/",
-        "version": "1.0",
-        "image": "Boss_Samurai_MeleeAttack.png",
-        "format": "RGBA8888",
-        "size": {
-            "w": 3584,
-            "h": 3584
+        "meta": {
+            "app": "https://github.com/piskelapp/piskel/",
+            "version": "1.0",
+            "image": "Boss_Samurai_MeleeAttack.png",
+            "format": "RGBA8888",
+            "size": {
+                "w": 3584,
+                "h": 3584
+            }
         }
     }
-}
 }

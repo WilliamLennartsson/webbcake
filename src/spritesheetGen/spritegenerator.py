@@ -28,12 +28,15 @@ if len(sys.argv) > 1:
 
     for i in range(framesTot):
 
-        frames[filename + str(i)] = {
+        if y == height:
+            break
+
+        frames[filename + str(i) + '.png'] = {
             'frame': {
                 'x': int(x),
                 'y': int(y),
-                'w': 0,
-                'h': 0
+                'w': int(frameWidth),
+                'h': int(frameHeight)
                 },
             'rotated': False,
             'trimmed': False,
@@ -50,9 +53,6 @@ if len(sys.argv) > 1:
         if x + frameWidth == width:
             x = 0 - frameWidth
             y += frameHeight
-
-        if y == height:
-            break
         
         x += frameWidth
 

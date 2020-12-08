@@ -22,11 +22,16 @@ export default class Player extends BaseEntity {
     } else if (anims.walk && anims.death) { // SpriteSheet rendering
       const walkSpriteSheet = new SpriteSheet(anims.walk.spriteSheet, 256, 256)
       const deathSpriteSheet = new SpriteSheet(anims.death.spriteSheet, 256, 256)
+      const meleeSpriteSheet = new SpriteSheet(anims.melee.spriteSheet, 256, 256)
+      const rangedSpriteSheet = new SpriteSheet(anims.ranged.spriteSheet, 256, 256)
 
       const animationManager = new SpriteSheetAnimationManager()
       animationManager.defineAnimationGroup('walk', { spriteSheet: walkSpriteSheet, data: anims.walk.data })
       animationManager.defineAnimationGroup("death", { spriteSheet: deathSpriteSheet, data: anims.death.data })
+      animationManager.defineAnimationGroup('melee', { spriteSheet: meleeSpriteSheet, data: anims.melee.data })
+      animationManager.defineAnimationGroup('ranged', { spriteSheet: rangedSpriteSheet, data: anims.ranged.data })
       animationManager.play('walk', 'standEast')
+      // animationManager.play('melee', 'mAttackNorth')
 
       // animationManager.play('death', 'Death')
       this.animationManager = animationManager
@@ -121,8 +126,28 @@ export default class Player extends BaseEntity {
   // TODO: System for binding new actions to keys
   performAction = (keyName) => {
     if (keyName == '1Key') {
-      // Attack
-      const attack = new Attack()
+      // MeleeAttack
+      // const attack = new Attack()
+      if (this.dir.x == 0 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouth') // down
+      else if (this.dir.x == 1 && this.dir.y == 0) this.animationManager.play('melee', 'mAttackEast') // right
+      else if (this.dir.x == 0 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorth') // up
+      else if (this.dir.x == -1 && this.dir.y == 0) this.animationManager.play('melee', 'mAttackWest') // left
+      else if (this.dir.x == 1 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouthEast') // southEast
+      else if (this.dir.x == -1 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouthWest') // southWest
+      else if (this.dir.x == 1 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorthEast') // northEast
+      else if (this.dir.x == -1 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorthWest') // northWest
+    }
+    if (keyName == '2Key') {
+      // RangedAttack
+      // const attack = new Attack()
+      if (this.dir.x == 0 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouth') // down
+      else if (this.dir.x == 1 && this.dir.y == 0) this.animationManager.play('ranged', 'rAttackEast') // right
+      else if (this.dir.x == 0 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorth') // up
+      else if (this.dir.x == -1 && this.dir.y == 0) this.animationManager.play('ranged', 'rAttackWest') // left
+      else if (this.dir.x == 1 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouthEast') // southEast
+      else if (this.dir.x == -1 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouthWest') // southWest
+      else if (this.dir.x == 1 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorthEast') // northEast
+      else if (this.dir.x == -1 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorthWest') // northWest
     }
     if (keyName == '0Key') {
       this.isDead = true
@@ -171,7 +196,7 @@ export default class Player extends BaseEntity {
         if (lastDir.x == 0 && lastDir.y == 1) this.animationManager.play('walk', 'standSouth') // down
         else if (lastDir.x == 1 && lastDir.y == 0) this.animationManager.play('walk', 'standEast') // right
         else if (lastDir.x == 0 && lastDir.y == -1) this.animationManager.play('walk', 'standNorth') // up
-        else if (lastDir.x == -1 && lastDir.y == 0) this.animationManager.play('walk', 'standNorth') // left // NO ANIMATION
+        else if (lastDir.x == -1 && lastDir.y == 0) this.animationManager.play('walk', 'standWest') // left // NO ANIMATION
         else if (lastDir.x == 1 && lastDir.y == 1) this.animationManager.play('walk', 'standSouthEast') // southEast
         else if (lastDir.x == -1 && lastDir.y == 1) this.animationManager.play('walk', 'standSouthWest') // southWest
         else if (lastDir.x == -1 && lastDir.y == -1) this.animationManager.play('walk', 'standNorthWest') // northWest
