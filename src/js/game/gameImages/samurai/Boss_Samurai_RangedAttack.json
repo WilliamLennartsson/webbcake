@@ -1,0 +1,3794 @@
+{
+    "frames": {
+        "Boss_Samurai_RangedAttack0.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack1.png": {
+            "frame": {
+                "x": 256,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack2.png": {
+            "frame": {
+                "x": 512,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack3.png": {
+            "frame": {
+                "x": 768,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack4.png": {
+            "frame": {
+                "x": 1024,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack5.png": {
+            "frame": {
+                "x": 1280,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack6.png": {
+            "frame": {
+                "x": 1536,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack7.png": {
+            "frame": {
+                "x": 1792,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack8.png": {
+            "frame": {
+                "x": 2048,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack9.png": {
+            "frame": {
+                "x": 2304,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack10.png": {
+            "frame": {
+                "x": 2560,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack11.png": {
+            "frame": {
+                "x": 2816,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack12.png": {
+            "frame": {
+                "x": 3072,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack13.png": {
+            "frame": {
+                "x": 3328,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack14.png": {
+            "frame": {
+                "x": 3584,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack15.png": {
+            "frame": {
+                "x": 3840,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack16.png": {
+            "frame": {
+                "x": 4096,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack17.png": {
+            "frame": {
+                "x": 4352,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack18.png": {
+            "frame": {
+                "x": 4608,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack19.png": {
+            "frame": {
+                "x": 4864,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack20.png": {
+            "frame": {
+                "x": 5120,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack21.png": {
+            "frame": {
+                "x": 5376,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack22.png": {
+            "frame": {
+                "x": 5632,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack23.png": {
+            "frame": {
+                "x": 5888,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack24.png": {
+            "frame": {
+                "x": 0,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack25.png": {
+            "frame": {
+                "x": 256,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack26.png": {
+            "frame": {
+                "x": 512,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack27.png": {
+            "frame": {
+                "x": 768,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack28.png": {
+            "frame": {
+                "x": 1024,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack29.png": {
+            "frame": {
+                "x": 1280,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack30.png": {
+            "frame": {
+                "x": 1536,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack31.png": {
+            "frame": {
+                "x": 1792,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack32.png": {
+            "frame": {
+                "x": 2048,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack33.png": {
+            "frame": {
+                "x": 2304,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack34.png": {
+            "frame": {
+                "x": 2560,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack35.png": {
+            "frame": {
+                "x": 2816,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack36.png": {
+            "frame": {
+                "x": 3072,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack37.png": {
+            "frame": {
+                "x": 3328,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack38.png": {
+            "frame": {
+                "x": 3584,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack39.png": {
+            "frame": {
+                "x": 3840,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack40.png": {
+            "frame": {
+                "x": 4096,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack41.png": {
+            "frame": {
+                "x": 4352,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack42.png": {
+            "frame": {
+                "x": 4608,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack43.png": {
+            "frame": {
+                "x": 4864,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack44.png": {
+            "frame": {
+                "x": 5120,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack45.png": {
+            "frame": {
+                "x": 5376,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack46.png": {
+            "frame": {
+                "x": 5632,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack47.png": {
+            "frame": {
+                "x": 5888,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack48.png": {
+            "frame": {
+                "x": 0,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack49.png": {
+            "frame": {
+                "x": 256,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack50.png": {
+            "frame": {
+                "x": 512,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack51.png": {
+            "frame": {
+                "x": 768,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack52.png": {
+            "frame": {
+                "x": 1024,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack53.png": {
+            "frame": {
+                "x": 1280,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack54.png": {
+            "frame": {
+                "x": 1536,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack55.png": {
+            "frame": {
+                "x": 1792,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack56.png": {
+            "frame": {
+                "x": 2048,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack57.png": {
+            "frame": {
+                "x": 2304,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack58.png": {
+            "frame": {
+                "x": 2560,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack59.png": {
+            "frame": {
+                "x": 2816,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack60.png": {
+            "frame": {
+                "x": 3072,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack61.png": {
+            "frame": {
+                "x": 3328,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack62.png": {
+            "frame": {
+                "x": 3584,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack63.png": {
+            "frame": {
+                "x": 3840,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack64.png": {
+            "frame": {
+                "x": 4096,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack65.png": {
+            "frame": {
+                "x": 4352,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack66.png": {
+            "frame": {
+                "x": 4608,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack67.png": {
+            "frame": {
+                "x": 4864,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack68.png": {
+            "frame": {
+                "x": 5120,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack69.png": {
+            "frame": {
+                "x": 5376,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack70.png": {
+            "frame": {
+                "x": 5632,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack71.png": {
+            "frame": {
+                "x": 5888,
+                "y": 512,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack72.png": {
+            "frame": {
+                "x": 0,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack73.png": {
+            "frame": {
+                "x": 256,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack74.png": {
+            "frame": {
+                "x": 512,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack75.png": {
+            "frame": {
+                "x": 768,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack76.png": {
+            "frame": {
+                "x": 1024,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack77.png": {
+            "frame": {
+                "x": 1280,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack78.png": {
+            "frame": {
+                "x": 1536,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack79.png": {
+            "frame": {
+                "x": 1792,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack80.png": {
+            "frame": {
+                "x": 2048,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack81.png": {
+            "frame": {
+                "x": 2304,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack82.png": {
+            "frame": {
+                "x": 2560,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack83.png": {
+            "frame": {
+                "x": 2816,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack84.png": {
+            "frame": {
+                "x": 3072,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack85.png": {
+            "frame": {
+                "x": 3328,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack86.png": {
+            "frame": {
+                "x": 3584,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack87.png": {
+            "frame": {
+                "x": 3840,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack88.png": {
+            "frame": {
+                "x": 4096,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack89.png": {
+            "frame": {
+                "x": 4352,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack90.png": {
+            "frame": {
+                "x": 4608,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack91.png": {
+            "frame": {
+                "x": 4864,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack92.png": {
+            "frame": {
+                "x": 5120,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack93.png": {
+            "frame": {
+                "x": 5376,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack94.png": {
+            "frame": {
+                "x": 5632,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack95.png": {
+            "frame": {
+                "x": 5888,
+                "y": 768,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack96.png": {
+            "frame": {
+                "x": 0,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack97.png": {
+            "frame": {
+                "x": 256,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack98.png": {
+            "frame": {
+                "x": 512,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack99.png": {
+            "frame": {
+                "x": 768,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack100.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack101.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack102.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack103.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack104.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack105.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack106.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack107.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack108.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack109.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack110.png": {
+            "frame": {
+                "x": 3584,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack111.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack112.png": {
+            "frame": {
+                "x": 4096,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack113.png": {
+            "frame": {
+                "x": 4352,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack114.png": {
+            "frame": {
+                "x": 4608,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack115.png": {
+            "frame": {
+                "x": 4864,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack116.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack117.png": {
+            "frame": {
+                "x": 5376,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack118.png": {
+            "frame": {
+                "x": 5632,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack119.png": {
+            "frame": {
+                "x": 5888,
+                "y": 1024,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack120.png": {
+            "frame": {
+                "x": 0,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack121.png": {
+            "frame": {
+                "x": 256,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack122.png": {
+            "frame": {
+                "x": 512,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack123.png": {
+            "frame": {
+                "x": 768,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack124.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack125.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack126.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack127.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack128.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack129.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack130.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack131.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack132.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack133.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack134.png": {
+            "frame": {
+                "x": 3584,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack135.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack136.png": {
+            "frame": {
+                "x": 4096,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack137.png": {
+            "frame": {
+                "x": 4352,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack138.png": {
+            "frame": {
+                "x": 4608,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack139.png": {
+            "frame": {
+                "x": 4864,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack140.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack141.png": {
+            "frame": {
+                "x": 5376,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack142.png": {
+            "frame": {
+                "x": 5632,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack143.png": {
+            "frame": {
+                "x": 5888,
+                "y": 1280,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack144.png": {
+            "frame": {
+                "x": 0,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack145.png": {
+            "frame": {
+                "x": 256,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack146.png": {
+            "frame": {
+                "x": 512,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack147.png": {
+            "frame": {
+                "x": 768,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack148.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack149.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack150.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack151.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack152.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack153.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack154.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack155.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack156.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack157.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack158.png": {
+            "frame": {
+                "x": 3584,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack159.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack160.png": {
+            "frame": {
+                "x": 4096,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack161.png": {
+            "frame": {
+                "x": 4352,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack162.png": {
+            "frame": {
+                "x": 4608,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack163.png": {
+            "frame": {
+                "x": 4864,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack164.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack165.png": {
+            "frame": {
+                "x": 5376,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack166.png": {
+            "frame": {
+                "x": 5632,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack167.png": {
+            "frame": {
+                "x": 5888,
+                "y": 1536,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack168.png": {
+            "frame": {
+                "x": 0,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack169.png": {
+            "frame": {
+                "x": 256,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack170.png": {
+            "frame": {
+                "x": 512,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack171.png": {
+            "frame": {
+                "x": 768,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack172.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack173.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack174.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack175.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack176.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack177.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack178.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack179.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack180.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack181.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack182.png": {
+            "frame": {
+                "x": 3584,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack183.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack184.png": {
+            "frame": {
+                "x": 4096,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack185.png": {
+            "frame": {
+                "x": 4352,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack186.png": {
+            "frame": {
+                "x": 4608,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack187.png": {
+            "frame": {
+                "x": 4864,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack188.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack189.png": {
+            "frame": {
+                "x": 5376,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack190.png": {
+            "frame": {
+                "x": 5632,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "Boss_Samurai_RangedAttack191.png": {
+            "frame": {
+                "x": 5888,
+                "y": 1792,
+                "w": 0,
+                "h": 0
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        }
+    },
+    "animations": {
+        "rAttackEast": [
+            "Boss_Samurai_RangedAttack0.png",
+            "Boss_Samurai_RangedAttack1.png",
+            "Boss_Samurai_RangedAttack2.png",
+            "Boss_Samurai_RangedAttack3.png",
+            "Boss_Samurai_RangedAttack4.png",
+            "Boss_Samurai_RangedAttack5.png",
+            "Boss_Samurai_RangedAttack6.png",
+            "Boss_Samurai_RangedAttack7.png",
+            "Boss_Samurai_RangedAttack8.png",
+            "Boss_Samurai_RangedAttack9.png",
+            "Boss_Samurai_RangedAttack10.png",
+            "Boss_Samurai_RangedAttack11.png",
+            "Boss_Samurai_RangedAttack12.png",
+            "Boss_Samurai_RangedAttack13.png",
+            "Boss_Samurai_RangedAttack14.png",
+            "Boss_Samurai_RangedAttack15.png",
+            "Boss_Samurai_RangedAttack16.png",
+            "Boss_Samurai_RangedAttack17.png",
+            "Boss_Samurai_RangedAttack18.png",
+            "Boss_Samurai_RangedAttack19.png",
+            "Boss_Samurai_RangedAttack20.png",
+            "Boss_Samurai_RangedAttack21.png",
+            "Boss_Samurai_RangedAttack22.png",
+            "Boss_Samurai_RangedAttack23.png"
+        ],
+        "rAttackNorth": [
+            "Boss_Samurai_RangedAttack24.png",
+            "Boss_Samurai_RangedAttack25.png",
+            "Boss_Samurai_RangedAttack26.png",
+            "Boss_Samurai_RangedAttack27.png",
+            "Boss_Samurai_RangedAttack28.png",
+            "Boss_Samurai_RangedAttack29.png",
+            "Boss_Samurai_RangedAttack30.png",
+            "Boss_Samurai_RangedAttack31.png",
+            "Boss_Samurai_RangedAttack32.png",
+            "Boss_Samurai_RangedAttack33.png",
+            "Boss_Samurai_RangedAttack34.png",
+            "Boss_Samurai_RangedAttack35.png",
+            "Boss_Samurai_RangedAttack36.png",
+            "Boss_Samurai_RangedAttack37.png",
+            "Boss_Samurai_RangedAttack38.png",
+            "Boss_Samurai_RangedAttack39.png",
+            "Boss_Samurai_RangedAttack40.png",
+            "Boss_Samurai_RangedAttack41.png",
+            "Boss_Samurai_RangedAttack42.png",
+            "Boss_Samurai_RangedAttack43.png",
+            "Boss_Samurai_RangedAttack44.png",
+            "Boss_Samurai_RangedAttack45.png",
+            "Boss_Samurai_RangedAttack46.png",
+            "Boss_Samurai_RangedAttack47.png"
+        ],
+        "rAttackNorthEast": [
+            "Boss_Samurai_RangedAttack48.png",
+            "Boss_Samurai_RangedAttack49.png",
+            "Boss_Samurai_RangedAttack50.png",
+            "Boss_Samurai_RangedAttack51.png",
+            "Boss_Samurai_RangedAttack52.png",
+            "Boss_Samurai_RangedAttack53.png",
+            "Boss_Samurai_RangedAttack54.png",
+            "Boss_Samurai_RangedAttack55.png",
+            "Boss_Samurai_RangedAttack56.png",
+            "Boss_Samurai_RangedAttack57.png",
+            "Boss_Samurai_RangedAttack58.png",
+            "Boss_Samurai_RangedAttack59.png",
+            "Boss_Samurai_RangedAttack60.png",
+            "Boss_Samurai_RangedAttack61.png",
+            "Boss_Samurai_RangedAttack62.png",
+            "Boss_Samurai_RangedAttack63.png",
+            "Boss_Samurai_RangedAttack64.png",
+            "Boss_Samurai_RangedAttack65.png",
+            "Boss_Samurai_RangedAttack66.png",
+            "Boss_Samurai_RangedAttack67.png",
+            "Boss_Samurai_RangedAttack68.png",
+            "Boss_Samurai_RangedAttack69.png",
+            "Boss_Samurai_RangedAttack70.png",
+            "Boss_Samurai_RangedAttack71.png"
+        ],
+        "rAttackNorthWest": [
+            "Boss_Samurai_RangedAttack72.png",
+            "Boss_Samurai_RangedAttack73.png",
+            "Boss_Samurai_RangedAttack74.png",
+            "Boss_Samurai_RangedAttack75.png",
+            "Boss_Samurai_RangedAttack76.png",
+            "Boss_Samurai_RangedAttack77.png",
+            "Boss_Samurai_RangedAttack78.png",
+            "Boss_Samurai_RangedAttack79.png",
+            "Boss_Samurai_RangedAttack80.png",
+            "Boss_Samurai_RangedAttack81.png",
+            "Boss_Samurai_RangedAttack82.png",
+            "Boss_Samurai_RangedAttack83.png",
+            "Boss_Samurai_RangedAttack84.png",
+            "Boss_Samurai_RangedAttack85.png",
+            "Boss_Samurai_RangedAttack86.png",
+            "Boss_Samurai_RangedAttack87.png",
+            "Boss_Samurai_RangedAttack88.png",
+            "Boss_Samurai_RangedAttack89.png",
+            "Boss_Samurai_RangedAttack90.png",
+            "Boss_Samurai_RangedAttack91.png",
+            "Boss_Samurai_RangedAttack92.png",
+            "Boss_Samurai_RangedAttack93.png",
+            "Boss_Samurai_RangedAttack94.png",
+            "Boss_Samurai_RangedAttack95.png"
+        ],
+        "rAttackSouth": [
+            "Boss_Samurai_RangedAttack96.png",
+            "Boss_Samurai_RangedAttack97.png",
+            "Boss_Samurai_RangedAttack98.png",
+            "Boss_Samurai_RangedAttack99.png",
+            "Boss_Samurai_RangedAttack100.png",
+            "Boss_Samurai_RangedAttack101.png",
+            "Boss_Samurai_RangedAttack102.png",
+            "Boss_Samurai_RangedAttack103.png",
+            "Boss_Samurai_RangedAttack104.png",
+            "Boss_Samurai_RangedAttack105.png",
+            "Boss_Samurai_RangedAttack106.png",
+            "Boss_Samurai_RangedAttack107.png",
+            "Boss_Samurai_RangedAttack108.png",
+            "Boss_Samurai_RangedAttack109.png",
+            "Boss_Samurai_RangedAttack110.png",
+            "Boss_Samurai_RangedAttack111.png",
+            "Boss_Samurai_RangedAttack112.png",
+            "Boss_Samurai_RangedAttack113.png",
+            "Boss_Samurai_RangedAttack114.png",
+            "Boss_Samurai_RangedAttack115.png",
+            "Boss_Samurai_RangedAttack116.png",
+            "Boss_Samurai_RangedAttack117.png",
+            "Boss_Samurai_RangedAttack118.png",
+            "Boss_Samurai_RangedAttack119.png"
+        ],
+        "rAttackSouthEast": [
+            "Boss_Samurai_RangedAttack120.png",
+            "Boss_Samurai_RangedAttack121.png",
+            "Boss_Samurai_RangedAttack122.png",
+            "Boss_Samurai_RangedAttack123.png",
+            "Boss_Samurai_RangedAttack124.png",
+            "Boss_Samurai_RangedAttack125.png",
+            "Boss_Samurai_RangedAttack126.png",
+            "Boss_Samurai_RangedAttack127.png",
+            "Boss_Samurai_RangedAttack128.png",
+            "Boss_Samurai_RangedAttack129.png",
+            "Boss_Samurai_RangedAttack130.png",
+            "Boss_Samurai_RangedAttack131.png",
+            "Boss_Samurai_RangedAttack132.png",
+            "Boss_Samurai_RangedAttack133.png",
+            "Boss_Samurai_RangedAttack134.png",
+            "Boss_Samurai_RangedAttack135.png",
+            "Boss_Samurai_RangedAttack136.png",
+            "Boss_Samurai_RangedAttack137.png",
+            "Boss_Samurai_RangedAttack138.png",
+            "Boss_Samurai_RangedAttack139.png",
+            "Boss_Samurai_RangedAttack140.png",
+            "Boss_Samurai_RangedAttack141.png",
+            "Boss_Samurai_RangedAttack142.png",
+            "Boss_Samurai_RangedAttack143.png"
+        ],
+        "rAttackSouthWest": [
+            "Boss_Samurai_RangedAttack144.png",
+            "Boss_Samurai_RangedAttack145.png",
+            "Boss_Samurai_RangedAttack146.png",
+            "Boss_Samurai_RangedAttack147.png",
+            "Boss_Samurai_RangedAttack148.png",
+            "Boss_Samurai_RangedAttack149.png",
+            "Boss_Samurai_RangedAttack150.png",
+            "Boss_Samurai_RangedAttack151.png",
+            "Boss_Samurai_RangedAttack152.png",
+            "Boss_Samurai_RangedAttack153.png",
+            "Boss_Samurai_RangedAttack154.png",
+            "Boss_Samurai_RangedAttack155.png",
+            "Boss_Samurai_RangedAttack156.png",
+            "Boss_Samurai_RangedAttack157.png",
+            "Boss_Samurai_RangedAttack158.png",
+            "Boss_Samurai_RangedAttack159.png",
+            "Boss_Samurai_RangedAttack160.png",
+            "Boss_Samurai_RangedAttack161.png",
+            "Boss_Samurai_RangedAttack162.png",
+            "Boss_Samurai_RangedAttack163.png",
+            "Boss_Samurai_RangedAttack164.png",
+            "Boss_Samurai_RangedAttack165.png",
+            "Boss_Samurai_RangedAttack166.png",
+            "Boss_Samurai_RangedAttack167.png"
+        ],
+        "rAttackWest": [
+            "Boss_Samurai_RangedAttack168.png",
+            "Boss_Samurai_RangedAttack169.png",
+            "Boss_Samurai_RangedAttack170.png",
+            "Boss_Samurai_RangedAttack171.png",
+            "Boss_Samurai_RangedAttack172.png",
+            "Boss_Samurai_RangedAttack173.png",
+            "Boss_Samurai_RangedAttack174.png",
+            "Boss_Samurai_RangedAttack175.png",
+            "Boss_Samurai_RangedAttack176.png",
+            "Boss_Samurai_RangedAttack177.png",
+            "Boss_Samurai_RangedAttack178.png",
+            "Boss_Samurai_RangedAttack179.png",
+            "Boss_Samurai_RangedAttack180.png",
+            "Boss_Samurai_RangedAttack181.png",
+            "Boss_Samurai_RangedAttack182.png",
+            "Boss_Samurai_RangedAttack183.png",
+            "Boss_Samurai_RangedAttack184.png",
+            "Boss_Samurai_RangedAttack185.png",
+            "Boss_Samurai_RangedAttack186.png",
+            "Boss_Samurai_RangedAttack187.png",
+            "Boss_Samurai_RangedAttack188.png",
+            "Boss_Samurai_RangedAttack189.png",
+            "Boss_Samurai_RangedAttack190.png",
+            "Boss_Samurai_RangedAttack191.png"
+        ]
+    },
+    "meta": {
+        "app": "webbcake",
+        "version": "1.0",
+        "image": "Boss_Samurai_RangedAttack.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 6144,
+            "h": 2048
+        }
+    }
+}
