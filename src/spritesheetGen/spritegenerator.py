@@ -31,12 +31,12 @@ if len(sys.argv) > 1:
         if y == height:
             break
 
-        frames[filename + str(i)] = {
+        frames[filename + str(i) + '.png'] = {
             'frame': {
                 'x': int(x),
                 'y': int(y),
-                'w': 0,
-                'h': 0
+                'w': int(frameWidth),
+                'h': int(frameHeight)
                 },
             'rotated': False,
             'trimmed': False,
