@@ -5,7 +5,7 @@ export default class AnimationManager {
   constructor() {
     this.animationGroups = {}
     this.currentAnimation = {group: "", frames: [], activeFrameIndex: -1, currentFrame: null}
-    this.animSpeed = 7
+    this.animSpeed = 2
     this.counter = 0
   }
 
