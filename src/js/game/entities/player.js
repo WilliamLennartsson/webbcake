@@ -1,7 +1,7 @@
-import BaseEntity from'./baseEntity'
-import AnimationManager from'../animationManager'
+import BaseEntity from './baseEntity'
+import AnimationManager from '../animationManager'
 import SpriteSheet from '../spriteSheet'
-import SpriteSheetAnimationManager from'../spriteSheetAnimator'
+import SpriteSheetAnimationManager from '../spriteSheetAnimator'
 import KeyboardManager from '../keyboardInputManager'
 import Inventory from '../inventory'
 import Attack from './attack'
@@ -11,23 +11,28 @@ export default class Player extends BaseEntity {
   constructor(anims, x, y) {
     super()
     // Rendering / Animations
-    if (anims.sprite){ // Sprite rendering + folder images animation rendering
+    if (anims.sprite) { // Sprite rendering + folder images animation rendering
       this.sprite = model.sprite
       this.animationManager = new AnimationManager()
       this.animationManager.load('Wizard', 'idle', (animation) => {
-        if (animation.status === 'loaded'){
+        if (animation.status === 'loaded') {
           this.animationManager.play(animation.name, animation.animation)// hmm. dumb naming right here
         }
       })
     } else if (anims.walk && anims.death) { // SpriteSheet rendering
       const walkSpriteSheet = new SpriteSheet(anims.walk.spriteSheet, 256, 256)
       const deathSpriteSheet = new SpriteSheet(anims.death.spriteSheet, 256, 256)
+      const meleeSpriteSheet = new SpriteSheet(anims.melee.spriteSheet, 256, 256)
+      const rangedSpriteSheet = new SpriteSheet(anims.ranged.spriteSheet, 256, 256)
 
       const animationManager = new SpriteSheetAnimationManager()
-      animationManager.defineAnimationGroup('walk', {spriteSheet: walkSpriteSheet, data: anims.walk.data})
-      animationManager.defineAnimationGroup("death", {spriteSheet: deathSpriteSheet, data: anims.death.data})
+      animationManager.defineAnimationGroup('walk', { spriteSheet: walkSpriteSheet, data: anims.walk.data })
+      animationManager.defineAnimationGroup("death", { spriteSheet: deathSpriteSheet, data: anims.death.data })
+      animationManager.defineAnimationGroup('melee', { spriteSheet: meleeSpriteSheet, data: anims.melee.data })
+      animationManager.defineAnimationGroup('ranged', { spriteSheet: rangedSpriteSheet, data: anims.ranged.data })
       animationManager.play('walk', 'standEast')
-      
+      // animationManager.play('melee', 'mAttackNorth')
+
       // animationManager.play('death', 'Death')
       this.animationManager = animationManager
     }
@@ -44,11 +49,11 @@ export default class Player extends BaseEntity {
     this.playerSpeed = 4
     this.velocity = 0 // Not used yet
     this.dir = {
-        x: 0,
-        y: 0
-      }
+      x: 0,
+      y: 0
+    }
     // Input
-    this.keyboardManager = new KeyboardManager() 
+    this.keyboardManager = new KeyboardManager()
     // Inventory
     this.inventory = new Inventory()
   }
@@ -91,7 +96,7 @@ export default class Player extends BaseEntity {
       return
     }
     const space = this.keyboardManager.keys.space
-    if (space.justPressed){ console.log("Space pressed") }
+    if (space.justPressed) { console.log("Space pressed") }
     const lastDir = this.dir
     const dir = this.getDir()
     this.dir = dir
@@ -100,7 +105,7 @@ export default class Player extends BaseEntity {
     // Select animation based on dir
     this.changeAnim(dir, lastDir)
     // Onmove callback for camera hook
-    if (this.onmove) this.onmove({pos: {x: this.x, y: this.y}, dir})
+    if (this.onmove) this.onmove({ pos: { x: this.x, y: this.y }, dir })
     // ActionBar and keysbindings
     this.getAction()
     // Update components
@@ -111,19 +116,39 @@ export default class Player extends BaseEntity {
 
   getAction = () => {
     const actionKeys = this.keyboardManager.keys
-    for(let i = 0; i < 10; i++) {
-    const keyName = `${i}Key`  
-      if (actionKeys[keyName].justPressed){
-        this.performAction(keyName)  
+    for (let i = 0; i < 10; i++) {
+      const keyName = `${i}Key`
+      if (actionKeys[keyName].justPressed) {
+        this.performAction(keyName)
       }
     }
   }
   // TODO: System for binding new actions to keys
   performAction = (keyName) => {
-    if (keyName == '1Key'){
-      // Attack
-      const attack = new Attack()
-    } 
+    if (keyName == '1Key') {
+      // MeleeAttack
+      // const attack = new Attack()
+      if (this.dir.x == 0 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouth') // down
+      else if (this.dir.x == 1 && this.dir.y == 0) this.animationManager.play('melee', 'mAttackEast') // right
+      else if (this.dir.x == 0 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorth') // up
+      else if (this.dir.x == -1 && this.dir.y == 0) this.animationManager.play('melee', 'mAttackWest') // left
+      else if (this.dir.x == 1 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouthEast') // southEast
+      else if (this.dir.x == -1 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouthWest') // southWest
+      else if (this.dir.x == 1 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorthEast') // northEast
+      else if (this.dir.x == -1 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorthWest') // northWest
+    }
+    if (keyName == '2Key') {
+      // RangedAttack
+      // const attack = new Attack()
+      if (this.dir.x == 0 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouth') // down
+      else if (this.dir.x == 1 && this.dir.y == 0) this.animationManager.play('ranged', 'rAttackEast') // right
+      else if (this.dir.x == 0 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorth') // up
+      else if (this.dir.x == -1 && this.dir.y == 0) this.animationManager.play('ranged', 'rAttackWest') // left
+      else if (this.dir.x == 1 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouthEast') // southEast
+      else if (this.dir.x == -1 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouthWest') // southWest
+      else if (this.dir.x == 1 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorthEast') // northEast
+      else if (this.dir.x == -1 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorthWest') // northWest
+    }
     if (keyName == '0Key') {
       this.isDead = true
       this.justDied = true
@@ -131,7 +156,7 @@ export default class Player extends BaseEntity {
   }
 
   getDir = () => {
-    const { left, right, up, down, aKey, sKey, wKey,dKey } = this.keyboardManager.keys
+    const { left, right, up, down, aKey, sKey, wKey, dKey } = this.keyboardManager.keys
     const dir = {
       x: 0,
       y: 0
@@ -171,7 +196,7 @@ export default class Player extends BaseEntity {
         if (lastDir.x == 0 && lastDir.y == 1) this.animationManager.play('walk', 'standSouth') // down
         else if (lastDir.x == 1 && lastDir.y == 0) this.animationManager.play('walk', 'standEast') // right
         else if (lastDir.x == 0 && lastDir.y == -1) this.animationManager.play('walk', 'standNorth') // up
-        else if (lastDir.x == -1 && lastDir.y == 0) this.animationManager.play('walk', 'standNorth') // left // NO ANIMATION
+        else if (lastDir.x == -1 && lastDir.y == 0) this.animationManager.play('walk', 'standWest') // left // NO ANIMATION
         else if (lastDir.x == 1 && lastDir.y == 1) this.animationManager.play('walk', 'standSouthEast') // southEast
         else if (lastDir.x == -1 && lastDir.y == 1) this.animationManager.play('walk', 'standSouthWest') // southWest
         else if (lastDir.x == -1 && lastDir.y == -1) this.animationManager.play('walk', 'standNorthWest') // northWest
