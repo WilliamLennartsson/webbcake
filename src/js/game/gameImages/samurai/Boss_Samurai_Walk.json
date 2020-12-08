@@ -3844,8 +3844,14 @@
     "animations": {
         "standEast": [
             "Boss_Samurai_Walk0.png",
+            "Boss_Samurai_Walk0.png",
             "Boss_Samurai_Walk1.png",
-            "Boss_Samurai_Walk2.png"
+            "Boss_Samurai_Walk1.png",
+            "Boss_Samurai_Walk1.png",
+            "Boss_Samurai_Walk1.png",
+            "Boss_Samurai_Walk1.png",
+            "Boss_Samurai_Walk0.png",
+            "Boss_Samurai_Walk0.png"
         ],
         "moveEast": [
             "Boss_Samurai_Walk3.png",
@@ -3872,8 +3878,14 @@
         ],
         "standNorth": [
             "Boss_Samurai_Walk24.png",
+            "Boss_Samurai_Walk24.png",
             "Boss_Samurai_Walk25.png",
-            "Boss_Samurai_Walk26.png"
+            "Boss_Samurai_Walk25.png",
+            "Boss_Samurai_Walk25.png",
+            "Boss_Samurai_Walk25.png",
+            "Boss_Samurai_Walk25.png",
+            "Boss_Samurai_Walk24.png",
+            "Boss_Samurai_Walk24.png"
         ],
         "moveNorth": [
             "Boss_Samurai_Walk27.png",
@@ -3900,8 +3912,14 @@
         ],
         "standNorthEast": [
             "Boss_Samurai_Walk48.png",
+            "Boss_Samurai_Walk48.png",
             "Boss_Samurai_Walk49.png",
-            "Boss_Samurai_Walk50.png"
+            "Boss_Samurai_Walk49.png",
+            "Boss_Samurai_Walk49.png",
+            "Boss_Samurai_Walk49.png",
+            "Boss_Samurai_Walk49.png",
+            "Boss_Samurai_Walk48.png",
+            "Boss_Samurai_Walk48.png"
         ],
         "moveNorthEast": [
             "Boss_Samurai_Walk51.png",
@@ -3928,8 +3946,14 @@
         ],
         "standNorthWest": [
             "Boss_Samurai_Walk72.png",
+            "Boss_Samurai_Walk72.png",
             "Boss_Samurai_Walk73.png",
-            "Boss_Samurai_Walk74.png"
+            "Boss_Samurai_Walk73.png",
+            "Boss_Samurai_Walk73.png",
+            "Boss_Samurai_Walk73.png",
+            "Boss_Samurai_Walk73.png",
+            "Boss_Samurai_Walk72.png",
+            "Boss_Samurai_Walk72.png"
         ],
         "moveNorthWest": [
             "Boss_Samurai_Walk75.png",
@@ -3955,9 +3979,15 @@
             "Boss_Samurai_Walk94.png"
         ],
         "standSouth": [
-            "Boss_Samurai_Walk95.png",
             "Boss_Samurai_Walk96.png",
-            "Boss_Samurai_Walk97.png"
+            "Boss_Samurai_Walk96.png",
+            "Boss_Samurai_Walk97.png",
+            "Boss_Samurai_Walk97.png",
+            "Boss_Samurai_Walk97.png",
+            "Boss_Samurai_Walk97.png",
+            "Boss_Samurai_Walk97.png",
+            "Boss_Samurai_Walk96.png",
+            "Boss_Samurai_Walk96.png"
         ],
         "moveSouth": [
             "Boss_Samurai_Walk98.png",
@@ -3983,9 +4013,16 @@
             "Boss_Samurai_Walk118.png"
         ],
         "standSouthEast": [
-            "Boss_Samurai_Walk119.png",
-            "Boss_Samurai_Walk120.png",
+            "Boss_Samurai_Walk121.png",
+            "Boss_Samurai_Walk121.png",
+            "Boss_Samurai_Walk122.png",
+            "Boss_Samurai_Walk122.png",
+            "Boss_Samurai_Walk122.png",
+            "Boss_Samurai_Walk122.png",
+            "Boss_Samurai_Walk122.png",
+            "Boss_Samurai_Walk121.png",
             "Boss_Samurai_Walk121.png"
+            
         ],
         "moveSouthEast": [
             "Boss_Samurai_Walk122.png",
@@ -4012,8 +4049,14 @@
         ],
         "standSouthWest": [
             "Boss_Samurai_Walk144.png",
+            "Boss_Samurai_Walk144.png",
             "Boss_Samurai_Walk145.png",
-            "Boss_Samurai_Walk146.png"
+            "Boss_Samurai_Walk145.png",
+            "Boss_Samurai_Walk145.png",
+            "Boss_Samurai_Walk145.png",
+            "Boss_Samurai_Walk145.png",
+            "Boss_Samurai_Walk144.png",
+            "Boss_Samurai_Walk144.png"
         ],
         "moveSouthWest": [
             "Boss_Samurai_Walk147.png",
@@ -4060,6 +4103,17 @@
             "Boss_Samurai_Walk186.png",
             "Boss_Samurai_Walk187.png",
             "Boss_Samurai_Walk188.png"
+        ],
+        "standWest": [
+            "Boss_Samurai_Walk190.png",
+            "Boss_Samurai_Walk190.png",
+            "Boss_Samurai_Walk191.png",
+            "Boss_Samurai_Walk191.png",
+            "Boss_Samurai_Walk191.png",
+            "Boss_Samurai_Walk191.png",
+            "Boss_Samurai_Walk190.png",
+            "Boss_Samurai_Walk190.png",
+            "Boss_Samurai_Walk190.png"
         ]
     },
     "meta": {
