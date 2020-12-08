@@ -41,7 +41,7 @@ export default class Player extends BaseEntity {
     this.y = y
     this.width = 200
     this.height = 200
-    this.playerSpeed = 2
+    this.playerSpeed = 4
     this.velocity = 0 // Not used yet
     this.dir = {
         x: 0,
