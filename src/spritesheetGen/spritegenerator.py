@@ -28,6 +28,9 @@ if len(sys.argv) > 1:
 
     for i in range(framesTot):
 
+        if y == height:
+            break
+
         frames[filename + str(i)] = {
             'frame': {
                 'x': int(x),
@@ -50,9 +53,6 @@ if len(sys.argv) > 1:
         if x + frameWidth == width:
             x = 0 - frameWidth
             y += frameHeight
-
-        if y == height:
-            break
         
         x += frameWidth
 
