@@ -105,16 +105,16 @@ export default class Player extends BaseEntity {
     // Select animation based on dir
     this.changeAnim(dir, lastDir)
     // Onmove callback for camera hook
-    if (this.onmove) this.onmove({ pos: { x: this.x, y: this.y }, dir })
+    if (this.onmove) this.onmove({ pos: { x: this.x, y: this.y }, dir }) // TODO: Should not be onMove. Triggers every update cycle
     // ActionBar and keysbindings
-    this.getAction()
+    this.handleActions()
     // Update components
     this.keyboardManager.update()
     this.animationManager.update()
     if (this.uICallback) this.uICallback(this) // TODO: This doesnt need to run every frame. Fetch me a goddamn bool
   }
 
-  getAction = () => {
+  handleActions = () => {
     const actionKeys = this.keyboardManager.keys
     for (let i = 0; i < 10; i++) {
       const keyName = `${i}Key`
