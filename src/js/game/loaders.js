@@ -8,6 +8,8 @@ import samuraiMeleeSpriteset from './gameImages/samurai/Boss_Samurai_MeleeAttack
 import samuraiMeleeData from './gameImages/samurai/Boss_Samurai_MeleeAttack.json'
 import samuraiRangedSpriteset from './gameImages/samurai/Boss_Samurai_RangedAttack.png'
 import samuraiRangedData from './gameImages/samurai/Boss_Samurai_RangedAttack.json'
+import shadowFiendMeleeSpriteset from './gameImages/ShadowFiend/ShadowFiendMelee.png'
+import shadowFiendMeleeData from './gameImages/ShadowFiend/ShadowFiendMelee.json'
 import level1 from './levels/level1.json'
 import sword from './gameImages/sword.png'
 
@@ -28,7 +30,8 @@ export const loadGameAssets = () => {
       loadImage(samuraiDeathSpriteset),
       loadImage(plantImage1),
       loadImage(samuraiMeleeSpriteset),
-      loadImage(samuraiRangedSpriteset)
+      loadImage(samuraiRangedSpriteset),
+      loadImage(shadowFiendMeleeSpriteset)
     ]).then(([
       wizard,
       backgroundTileset,
@@ -37,7 +40,8 @@ export const loadGameAssets = () => {
       samuraiDeathSpriteset,
       plantImage,
       samuraiMeleeSpriteset,
-      samuraiRangedSpriteset
+      samuraiRangedSpriteset,
+      shadowFiendMeleeSpriteset
     ]) => {
       resolve({
         tilesets: {
@@ -47,6 +51,9 @@ export const loadGameAssets = () => {
             death: {spriteSheet: samuraiDeathSpriteset, data: samuraiDeathData },
             melee: {spriteSheet: samuraiMeleeSpriteset, data: samuraiMeleeData},
             ranged: {spriteSheet: samuraiRangedSpriteset, data: samuraiRangedData}
+          },
+          enemy: {
+            all: {spriteSheet: shadowFiendMeleeSpriteset, data: shadowFiendMeleeData}
           },
           wizard: {sprite: wizard},
         },

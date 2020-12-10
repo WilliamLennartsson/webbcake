@@ -53,7 +53,7 @@ window.onload = () => {
     // console.log('assets.tilesets.player.data :>> ', assets.tilesets.player.spriteSheet);
     // {spriteSheet: samuraiSpriteSheet, data: assets.tilesets.player.data}
     const player = new Player(assets.tilesets.player, 400, 300)
-    const enemy = new Enemy(assets.tilesets.player, 200, 100)
+    const enemy = new Enemy(assets.tilesets.enemy, 200, 100)
     player.onmove = ({dir, pos}) => camera.follow(pos) /*camera.pan(dir)*/
     player.onDeath = (p) => {
       // TODO: This is a crash
