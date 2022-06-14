@@ -19,8 +19,8 @@ export default class BackgroundLayer extends BaseLayer{
     defineBackgroundSprites(backgroundSprites, level.world.tileMap)
 
     this.backgroundSprites = backgroundSprites
-    console.log('BackgroundSprites 2 :>> ', backgroundSprites)
-    console.log('level.world.tileMap :>> ', level.world.tileMap)
+    // console.log('BackgroundSprites 2 :>> ', backgroundSprites)
+    // console.log('level.world.tileMap :>> ', level.world.tileMap)
   }
   draw = (context, camera) => {
     const { level, backgroundSprites, tileWidth, tileHeight } = this

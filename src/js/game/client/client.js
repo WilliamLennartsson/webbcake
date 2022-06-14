@@ -1,26 +1,66 @@
-let socket = require('socket.io-client')('http://127.0.0.1:4001');
-import socketIOClient from 'socket.io-client'
+const socketUrl = "ws://localhost:5000/"
 
+const initConfig = {
+  // Hooks
+  onCreate: null,
+  onDisconnect: null,
+  onUpdate: null,
+  onPlayerJoined: null,
+  onPlayerLeft: null,
+}
 export default class Client {
-  constructor() {
-    const endpoint = { response: 0, endpoint: "http://127.0.0.1:4001" }
-    const socket = socketIOClient(endpoint)
-    socket.on("outgoing data", data => console.log('data :>> ', data))
-    
+  constructor(conf) {
+    // Socket
+    this.socket = new WebSocket(socketUrl)
+    // Config
+    const config = Object.assign(initConfig, conf)
+    this.onCreate = config.onCreate
+    this.onDisconnect = this.onDisconnect
+    this.onUpdate = this.onUpdate
+    this.onPlayerJoined = this.onPlayerJoined
+    this.onPlayerLeft = this.onPlayerLeft
   }
-  test() {
-    //starting speed at 0
-    let speed = 0;
+  init = () => {
+    this.socket.onopen = function (e) {
+      // console.log("[open] Connection established")
+      // console.log("Sending to server")
+      this.socket.send(JSON.stringify({ status: 1, player }))
+    }
+    this.socket.onmessage = function (event) {
+      // console.log('event. :>> ', event.data)
+      const parsedData = JSON.parse(event.data)
+      // console.log("Players??")
+      // console.log(parsedData)
+      switch (parsedData.status) {
+        case 1:
+          const newPlayer = parsedData.player
+          console.log('OnMessage: newPlayer added :>> ', newPlayer)
+          break
+        case 2:
+          console.log("OnMessage: Server update")
+          console.log(parsedData.players)
+          break
+        case 3:
+          console.log("OnMessage: Inform")
+          console.log(parsedData)
+          break
+      }
+    }
+    this.socket.onclose = function (event) {
+      if (event.wasClean) {
+        console.log(`[close] Connection closed cleanly, code=${event.code} reason=${event.reason}`)
+      } else {
+        // e.g. server process killed or network down
+        // event.code is usually 1006 in this case
+        console.log("Connection died")
+      }
+    }
+    this.socket.onerror = function (error) {
+      console.log(`[error] ${error.message}`)
+    }
+  }
+  connect = () => {
 
-    //Simulating reading data every 100 milliseconds
-    setInterval(function () {
-        //some sudo-randomness to change the values but not to drastically
-        let nextMin = (speed-2)>0 ? speed-2 : 2;
-        let nextMax = speed+5 < 140 ? speed+5 : Math.random() * (130 - 5 + 1) + 5;
-        speed = Math.floor(Math.random() * (nextMax - nextMin + 1) + nextMin);
-
-        //we emit the data. No need to JSON serialization!
-        socket.emit('incoming data', speed);
-    }, 100);
   }
 }
+

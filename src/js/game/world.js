@@ -39,7 +39,7 @@ export default class World {
   addEntity = (name, entity) => {
     this.entities[name] = entity
     if (this.renderer) this.renderer.addLayer(entity)
-    console.log("Entitie?", this.entities)
+    // console.log("Entitie?", this.entities)
   }
   removeEntity = (name) => {
     this.entities[name] = null
