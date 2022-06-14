@@ -19,21 +19,17 @@ export default class Enemy extends BaseEntity {
           this.animationManager.play(animation.name, animation.animation)// hmm. dumb naming right here
         }
       })
-    } else if (anims.walk && anims.death) { // SpriteSheet rendering
-      const walkSpriteSheet = new SpriteSheet(anims.walk.spriteSheet, 256, 256)
-      const deathSpriteSheet = new SpriteSheet(anims.death.spriteSheet, 256, 256)
-      const meleeSpriteSheet = new SpriteSheet(anims.melee.spriteSheet, 256, 256)
-      const rangedSpriteSheet = new SpriteSheet(anims.ranged.spriteSheet, 256, 256)
+    } else if (anims.all) { // SpriteSheet rendering
+
+      // enemy
+      const shadowFiendSpriteSheet = new SpriteSheet(anims.all.spriteSheet, 256, 256)
 
       const animationManager = new SpriteSheetAnimationManager()
-      animationManager.defineAnimationGroup('walk', { spriteSheet: walkSpriteSheet, data: anims.walk.data })
-      animationManager.defineAnimationGroup("death", { spriteSheet: deathSpriteSheet, data: anims.death.data })
-      animationManager.defineAnimationGroup('melee', { spriteSheet: meleeSpriteSheet, data: anims.melee.data })
-      animationManager.defineAnimationGroup('ranged', { spriteSheet: rangedSpriteSheet, data: anims.ranged.data })
-      animationManager.play('walk', 'standEast')
-      // animationManager.play('melee', 'mAttackNorth')
 
-      // animationManager.play('death', 'Death')
+      // enemy
+      animationManager.defineAnimationGroup('all', {spriteSheet: shadowFiendSpriteSheet, data: anims.all.data})
+      animationManager.play('all', 'attackEast')
+
       this.animationManager = animationManager
     }
     // Game
@@ -71,7 +67,7 @@ export default class Enemy extends BaseEntity {
     super.draw(context, camera)
     let spriteToDraw
     const animSprite = this.animationManager.getFrame()
-    // console.log('animSprite :>> ', animSprite)
+    
     if (animSprite == null && this.sprite == null) return
     if (animSprite == null) spriteToDraw = this.sprite
     else spriteToDraw = animSprite
@@ -85,16 +81,16 @@ export default class Enemy extends BaseEntity {
   }
 
   update = (deltaTime) => {
-    if (this.isDead) {
-      if (this.justDied) {
-        this.animationManager.play('death', 'Death', () => {
-          if (this.onDeath) this.onDeath(this)
-        })
-        this.justDied = false
-      }
-      this.animationManager.update()
-      return
-    }
+    // if (this.isDead) {
+    //   if (this.justDied) {
+    //     this.animationManager.play('death', 'Death', () => {
+    //       if (this.onDeath) this.onDeath(this)
+    //     })
+    //     this.justDied = false
+    //   }
+    //   this.animationManager.update()
+    //   return
+    // }
     if (this.x != 500) this.x += this.playerSpeed
     
     // const space = this.keyboardManager.keys.space
@@ -129,26 +125,26 @@ export default class Enemy extends BaseEntity {
     if (keyName == '1Key') {
       // MeleeAttack
       // const attack = new Attack()
-      if (this.dir.x == 0 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouth') // down
-      else if (this.dir.x == 1 && this.dir.y == 0) this.animationManager.play('melee', 'mAttackEast') // right
-      else if (this.dir.x == 0 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorth') // up
-      else if (this.dir.x == -1 && this.dir.y == 0) this.animationManager.play('melee', 'mAttackWest') // left
-      else if (this.dir.x == 1 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouthEast') // southEast
-      else if (this.dir.x == -1 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouthWest') // southWest
-      else if (this.dir.x == 1 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorthEast') // northEast
-      else if (this.dir.x == -1 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorthWest') // northWest
+      // if (this.dir.x == 0 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouth') // down
+      // else if (this.dir.x == 1 && this.dir.y == 0) this.animationManager.play('melee', 'mAttackEast') // right
+      // else if (this.dir.x == 0 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorth') // up
+      // else if (this.dir.x == -1 && this.dir.y == 0) this.animationManager.play('melee', 'mAttackWest') // left
+      // else if (this.dir.x == 1 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouthEast') // southEast
+      // else if (this.dir.x == -1 && this.dir.y == 1) this.animationManager.play('melee', 'mAttackSouthWest') // southWest
+      // else if (this.dir.x == 1 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorthEast') // northEast
+      // else if (this.dir.x == -1 && this.dir.y == -1) this.animationManager.play('melee', 'mAttackNorthWest') // northWest
     }
     if (keyName == '2Key') {
       // RangedAttack
       // const attack = new Attack()
-      if (this.dir.x == 0 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouth') // down
-      else if (this.dir.x == 1 && this.dir.y == 0) this.animationManager.play('ranged', 'rAttackEast') // right
-      else if (this.dir.x == 0 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorth') // up
-      else if (this.dir.x == -1 && this.dir.y == 0) this.animationManager.play('ranged', 'rAttackWest') // left
-      else if (this.dir.x == 1 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouthEast') // southEast
-      else if (this.dir.x == -1 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouthWest') // southWest
-      else if (this.dir.x == 1 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorthEast') // northEast
-      else if (this.dir.x == -1 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorthWest') // northWest
+      // if (this.dir.x == 0 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouth') // down
+      // else if (this.dir.x == 1 && this.dir.y == 0) this.animationManager.play('ranged', 'rAttackEast') // right
+      // else if (this.dir.x == 0 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorth') // up
+      // else if (this.dir.x == -1 && this.dir.y == 0) this.animationManager.play('ranged', 'rAttackWest') // left
+      // else if (this.dir.x == 1 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouthEast') // southEast
+      // else if (this.dir.x == -1 && this.dir.y == 1) this.animationManager.play('ranged', 'rAttackSouthWest') // southWest
+      // else if (this.dir.x == 1 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorthEast') // northEast
+      // else if (this.dir.x == -1 && this.dir.y == -1) this.animationManager.play('ranged', 'rAttackNorthWest') // northWest
     }
     if (keyName == '0Key') {
       this.isDead = true
@@ -179,27 +175,27 @@ export default class Enemy extends BaseEntity {
     if (dir.x == lastDir.x && dir.y == lastDir.y) return // Same direction as last frame
 
     // Start moving animation
-    if (dir.x == 0 && dir.y == 1) this.animationManager.play('walk', 'moveSouth') // down
-    else if (dir.x == 1 && dir.y == 0) this.animationManager.play('walk', 'moveEast') // right
-    else if (dir.x == 0 && dir.y == -1) this.animationManager.play('walk', 'moveNorth') // up
-    else if (dir.x == -1 && dir.y == 0) this.animationManager.play('walk', 'moveWest') // left
-    else if (dir.x == 1 && dir.y == 1) this.animationManager.play('walk', 'moveSouthEast') // southEast
-    else if (dir.x == -1 && dir.y == 1) this.animationManager.play('walk', 'moveSouthWest') // southWest    
-    else if (dir.x == 1 && dir.y == -1) this.animationManager.play('walk', 'moveNorthEast') // northEast
-    else if (dir.x == -1 && dir.y == -1) this.animationManager.play('walk', 'moveNorthWest') // northWest
+    // if (dir.x == 0 && dir.y == 1) this.animationManager.play('walk', 'moveSouth') // down
+    // else if (dir.x == 1 && dir.y == 0) this.animationManager.play('walk', 'moveEast') // right
+    // else if (dir.x == 0 && dir.y == -1) this.animationManager.play('walk', 'moveNorth') // up
+    // else if (dir.x == -1 && dir.y == 0) this.animationManager.play('walk', 'moveWest') // left
+    // else if (dir.x == 1 && dir.y == 1) this.animationManager.play('walk', 'moveSouthEast') // southEast
+    // else if (dir.x == -1 && dir.y == 1) this.animationManager.play('walk', 'moveSouthWest') // southWest    
+    // else if (dir.x == 1 && dir.y == -1) this.animationManager.play('walk', 'moveNorthEast') // northEast
+    // else if (dir.x == -1 && dir.y == -1) this.animationManager.play('walk', 'moveNorthWest') // northWest
 
     // Start Idle animation
-    if (dir.x == 0 && dir.y == 0) {
-      if (lastDir.x != 0 || lastDir.y != 0) { // Starting idle
-        if (lastDir.x == 0 && lastDir.y == 1) this.animationManager.play('walk', 'standSouth') // down
-        else if (lastDir.x == 1 && lastDir.y == 0) this.animationManager.play('walk', 'standEast') // right
-        else if (lastDir.x == 0 && lastDir.y == -1) this.animationManager.play('walk', 'standNorth') // up
-        else if (lastDir.x == -1 && lastDir.y == 0) this.animationManager.play('walk', 'standWest') // left // NO ANIMATION
-        else if (lastDir.x == 1 && lastDir.y == 1) this.animationManager.play('walk', 'standSouthEast') // southEast
-        else if (lastDir.x == -1 && lastDir.y == 1) this.animationManager.play('walk', 'standSouthWest') // southWest
-        else if (lastDir.x == -1 && lastDir.y == -1) this.animationManager.play('walk', 'standNorthWest') // northWest
-        else if (lastDir.x == 1 && lastDir.y == -1) this.animationManager.play('walk', 'standNorthEast') // northEast
-      }
-    }
+    // if (dir.x == 0 && dir.y == 0) {
+    //   if (lastDir.x != 0 || lastDir.y != 0) { // Starting idle
+    //     if (lastDir.x == 0 && lastDir.y == 1) this.animationManager.play('walk', 'standSouth') // down
+    //     else if (lastDir.x == 1 && lastDir.y == 0) this.animationManager.play('walk', 'standEast') // right
+    //     else if (lastDir.x == 0 && lastDir.y == -1) this.animationManager.play('walk', 'standNorth') // up
+    //     else if (lastDir.x == -1 && lastDir.y == 0) this.animationManager.play('walk', 'standWest') // left // NO ANIMATION
+    //     else if (lastDir.x == 1 && lastDir.y == 1) this.animationManager.play('walk', 'standSouthEast') // southEast
+    //     else if (lastDir.x == -1 && lastDir.y == 1) this.animationManager.play('walk', 'standSouthWest') // southWest
+    //     else if (lastDir.x == -1 && lastDir.y == -1) this.animationManager.play('walk', 'standNorthWest') // northWest
+    //     else if (lastDir.x == 1 && lastDir.y == -1) this.animationManager.play('walk', 'standNorthEast') // northEast
+      // }
+    // }
   }
 }

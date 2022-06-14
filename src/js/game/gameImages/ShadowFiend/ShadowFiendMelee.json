@@ -1,0 +1,7441 @@
+{
+    "frames": {
+        "ShadowFiendMelee0.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee1.png": {
+            "frame": {
+                "x": 256,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee2.png": {
+            "frame": {
+                "x": 512,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee3.png": {
+            "frame": {
+                "x": 768,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee4.png": {
+            "frame": {
+                "x": 1024,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee5.png": {
+            "frame": {
+                "x": 1280,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee6.png": {
+            "frame": {
+                "x": 1536,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee7.png": {
+            "frame": {
+                "x": 1792,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee8.png": {
+            "frame": {
+                "x": 2048,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee9.png": {
+            "frame": {
+                "x": 2304,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee10.png": {
+            "frame": {
+                "x": 2560,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee11.png": {
+            "frame": {
+                "x": 2816,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee12.png": {
+            "frame": {
+                "x": 3072,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee13.png": {
+            "frame": {
+                "x": 3328,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee14.png": {
+            "frame": {
+                "x": 3584,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee15.png": {
+            "frame": {
+                "x": 3840,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee16.png": {
+            "frame": {
+                "x": 4096,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee17.png": {
+            "frame": {
+                "x": 4352,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee18.png": {
+            "frame": {
+                "x": 4608,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee19.png": {
+            "frame": {
+                "x": 4864,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee20.png": {
+            "frame": {
+                "x": 5120,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee21.png": {
+            "frame": {
+                "x": 5376,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee22.png": {
+            "frame": {
+                "x": 5632,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee23.png": {
+            "frame": {
+                "x": 5888,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee24.png": {
+            "frame": {
+                "x": 0,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee25.png": {
+            "frame": {
+                "x": 256,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee26.png": {
+            "frame": {
+                "x": 512,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee27.png": {
+            "frame": {
+                "x": 768,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee28.png": {
+            "frame": {
+                "x": 1024,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee29.png": {
+            "frame": {
+                "x": 1280,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee30.png": {
+            "frame": {
+                "x": 1536,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee31.png": {
+            "frame": {
+                "x": 1792,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee32.png": {
+            "frame": {
+                "x": 2048,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee33.png": {
+            "frame": {
+                "x": 2304,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee34.png": {
+            "frame": {
+                "x": 2560,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee35.png": {
+            "frame": {
+                "x": 2816,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee36.png": {
+            "frame": {
+                "x": 3072,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee37.png": {
+            "frame": {
+                "x": 3328,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee38.png": {
+            "frame": {
+                "x": 3584,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee39.png": {
+            "frame": {
+                "x": 3840,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee40.png": {
+            "frame": {
+                "x": 4096,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee41.png": {
+            "frame": {
+                "x": 4352,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee42.png": {
+            "frame": {
+                "x": 4608,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee43.png": {
+            "frame": {
+                "x": 4864,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee44.png": {
+            "frame": {
+                "x": 5120,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee45.png": {
+            "frame": {
+                "x": 5376,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee46.png": {
+            "frame": {
+                "x": 5632,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee47.png": {
+            "frame": {
+                "x": 5888,
+                "y": 256,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee48.png": {
+            "frame": {
+                "x": 0,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee49.png": {
+            "frame": {
+                "x": 256,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee50.png": {
+            "frame": {
+                "x": 512,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee51.png": {
+            "frame": {
+                "x": 768,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee52.png": {
+            "frame": {
+                "x": 1024,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee53.png": {
+            "frame": {
+                "x": 1280,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee54.png": {
+            "frame": {
+                "x": 1536,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee55.png": {
+            "frame": {
+                "x": 1792,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee56.png": {
+            "frame": {
+                "x": 2048,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee57.png": {
+            "frame": {
+                "x": 2304,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee58.png": {
+            "frame": {
+                "x": 2560,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee59.png": {
+            "frame": {
+                "x": 2816,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee60.png": {
+            "frame": {
+                "x": 3072,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee61.png": {
+            "frame": {
+                "x": 3328,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee62.png": {
+            "frame": {
+                "x": 3584,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee63.png": {
+            "frame": {
+                "x": 3840,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee64.png": {
+            "frame": {
+                "x": 4096,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee65.png": {
+            "frame": {
+                "x": 4352,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee66.png": {
+            "frame": {
+                "x": 4608,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee67.png": {
+            "frame": {
+                "x": 4864,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee68.png": {
+            "frame": {
+                "x": 5120,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee69.png": {
+            "frame": {
+                "x": 5376,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee70.png": {
+            "frame": {
+                "x": 5632,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee71.png": {
+            "frame": {
+                "x": 5888,
+                "y": 512,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee72.png": {
+            "frame": {
+                "x": 0,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee73.png": {
+            "frame": {
+                "x": 256,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee74.png": {
+            "frame": {
+                "x": 512,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee75.png": {
+            "frame": {
+                "x": 768,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee76.png": {
+            "frame": {
+                "x": 1024,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee77.png": {
+            "frame": {
+                "x": 1280,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee78.png": {
+            "frame": {
+                "x": 1536,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee79.png": {
+            "frame": {
+                "x": 1792,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee80.png": {
+            "frame": {
+                "x": 2048,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee81.png": {
+            "frame": {
+                "x": 2304,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee82.png": {
+            "frame": {
+                "x": 2560,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee83.png": {
+            "frame": {
+                "x": 2816,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee84.png": {
+            "frame": {
+                "x": 3072,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee85.png": {
+            "frame": {
+                "x": 3328,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee86.png": {
+            "frame": {
+                "x": 3584,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee87.png": {
+            "frame": {
+                "x": 3840,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee88.png": {
+            "frame": {
+                "x": 4096,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee89.png": {
+            "frame": {
+                "x": 4352,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee90.png": {
+            "frame": {
+                "x": 4608,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee91.png": {
+            "frame": {
+                "x": 4864,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee92.png": {
+            "frame": {
+                "x": 5120,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee93.png": {
+            "frame": {
+                "x": 5376,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee94.png": {
+            "frame": {
+                "x": 5632,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee95.png": {
+            "frame": {
+                "x": 5888,
+                "y": 768,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee96.png": {
+            "frame": {
+                "x": 0,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee97.png": {
+            "frame": {
+                "x": 256,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee98.png": {
+            "frame": {
+                "x": 512,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee99.png": {
+            "frame": {
+                "x": 768,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee100.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee101.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee102.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee103.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee104.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee105.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee106.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee107.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee108.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee109.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee110.png": {
+            "frame": {
+                "x": 3584,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee111.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee112.png": {
+            "frame": {
+                "x": 4096,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee113.png": {
+            "frame": {
+                "x": 4352,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee114.png": {
+            "frame": {
+                "x": 4608,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee115.png": {
+            "frame": {
+                "x": 4864,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee116.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee117.png": {
+            "frame": {
+                "x": 5376,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee118.png": {
+            "frame": {
+                "x": 5632,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee119.png": {
+            "frame": {
+                "x": 5888,
+                "y": 1024,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee120.png": {
+            "frame": {
+                "x": 0,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee121.png": {
+            "frame": {
+                "x": 256,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee122.png": {
+            "frame": {
+                "x": 512,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee123.png": {
+            "frame": {
+                "x": 768,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee124.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee125.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee126.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee127.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee128.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee129.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee130.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee131.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee132.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee133.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee134.png": {
+            "frame": {
+                "x": 3584,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee135.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee136.png": {
+            "frame": {
+                "x": 4096,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee137.png": {
+            "frame": {
+                "x": 4352,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee138.png": {
+            "frame": {
+                "x": 4608,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee139.png": {
+            "frame": {
+                "x": 4864,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee140.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee141.png": {
+            "frame": {
+                "x": 5376,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee142.png": {
+            "frame": {
+                "x": 5632,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee143.png": {
+            "frame": {
+                "x": 5888,
+                "y": 1280,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee144.png": {
+            "frame": {
+                "x": 0,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee145.png": {
+            "frame": {
+                "x": 256,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee146.png": {
+            "frame": {
+                "x": 512,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee147.png": {
+            "frame": {
+                "x": 768,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee148.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee149.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee150.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee151.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee152.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee153.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee154.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee155.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee156.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee157.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee158.png": {
+            "frame": {
+                "x": 3584,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee159.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee160.png": {
+            "frame": {
+                "x": 4096,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee161.png": {
+            "frame": {
+                "x": 4352,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee162.png": {
+            "frame": {
+                "x": 4608,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee163.png": {
+            "frame": {
+                "x": 4864,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee164.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee165.png": {
+            "frame": {
+                "x": 5376,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee166.png": {
+            "frame": {
+                "x": 5632,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee167.png": {
+            "frame": {
+                "x": 5888,
+                "y": 1536,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee168.png": {
+            "frame": {
+                "x": 0,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee169.png": {
+            "frame": {
+                "x": 256,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee170.png": {
+            "frame": {
+                "x": 512,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee171.png": {
+            "frame": {
+                "x": 768,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee172.png": {
+            "frame": {
+                "x": 1024,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee173.png": {
+            "frame": {
+                "x": 1280,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee174.png": {
+            "frame": {
+                "x": 1536,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee175.png": {
+            "frame": {
+                "x": 1792,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee176.png": {
+            "frame": {
+                "x": 2048,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee177.png": {
+            "frame": {
+                "x": 2304,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee178.png": {
+            "frame": {
+                "x": 2560,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee179.png": {
+            "frame": {
+                "x": 2816,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee180.png": {
+            "frame": {
+                "x": 3072,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee181.png": {
+            "frame": {
+                "x": 3328,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee182.png": {
+            "frame": {
+                "x": 3584,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee183.png": {
+            "frame": {
+                "x": 3840,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee184.png": {
+            "frame": {
+                "x": 4096,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee185.png": {
+            "frame": {
+                "x": 4352,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee186.png": {
+            "frame": {
+                "x": 4608,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee187.png": {
+            "frame": {
+                "x": 4864,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee188.png": {
+            "frame": {
+                "x": 5120,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee189.png": {
+            "frame": {
+                "x": 5376,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee190.png": {
+            "frame": {
+                "x": 5632,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee191.png": {
+            "frame": {
+                "x": 5888,
+                "y": 1792,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee192.png": {
+            "frame": {
+                "x": 0,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee193.png": {
+            "frame": {
+                "x": 256,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee194.png": {
+            "frame": {
+                "x": 512,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee195.png": {
+            "frame": {
+                "x": 768,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee196.png": {
+            "frame": {
+                "x": 1024,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee197.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee198.png": {
+            "frame": {
+                "x": 1536,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee199.png": {
+            "frame": {
+                "x": 1792,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee200.png": {
+            "frame": {
+                "x": 2048,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee201.png": {
+            "frame": {
+                "x": 2304,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee202.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee203.png": {
+            "frame": {
+                "x": 2816,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee204.png": {
+            "frame": {
+                "x": 3072,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee205.png": {
+            "frame": {
+                "x": 3328,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee206.png": {
+            "frame": {
+                "x": 3584,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee207.png": {
+            "frame": {
+                "x": 3840,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee208.png": {
+            "frame": {
+                "x": 4096,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee209.png": {
+            "frame": {
+                "x": 4352,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee210.png": {
+            "frame": {
+                "x": 4608,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee211.png": {
+            "frame": {
+                "x": 4864,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee212.png": {
+            "frame": {
+                "x": 5120,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee213.png": {
+            "frame": {
+                "x": 5376,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee214.png": {
+            "frame": {
+                "x": 5632,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee215.png": {
+            "frame": {
+                "x": 5888,
+                "y": 2048,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee216.png": {
+            "frame": {
+                "x": 0,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee217.png": {
+            "frame": {
+                "x": 256,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee218.png": {
+            "frame": {
+                "x": 512,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee219.png": {
+            "frame": {
+                "x": 768,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee220.png": {
+            "frame": {
+                "x": 1024,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee221.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee222.png": {
+            "frame": {
+                "x": 1536,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee223.png": {
+            "frame": {
+                "x": 1792,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee224.png": {
+            "frame": {
+                "x": 2048,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee225.png": {
+            "frame": {
+                "x": 2304,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee226.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee227.png": {
+            "frame": {
+                "x": 2816,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee228.png": {
+            "frame": {
+                "x": 3072,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee229.png": {
+            "frame": {
+                "x": 3328,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee230.png": {
+            "frame": {
+                "x": 3584,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee231.png": {
+            "frame": {
+                "x": 3840,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee232.png": {
+            "frame": {
+                "x": 4096,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee233.png": {
+            "frame": {
+                "x": 4352,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee234.png": {
+            "frame": {
+                "x": 4608,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee235.png": {
+            "frame": {
+                "x": 4864,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee236.png": {
+            "frame": {
+                "x": 5120,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee237.png": {
+            "frame": {
+                "x": 5376,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee238.png": {
+            "frame": {
+                "x": 5632,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee239.png": {
+            "frame": {
+                "x": 5888,
+                "y": 2304,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee240.png": {
+            "frame": {
+                "x": 0,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee241.png": {
+            "frame": {
+                "x": 256,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee242.png": {
+            "frame": {
+                "x": 512,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee243.png": {
+            "frame": {
+                "x": 768,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee244.png": {
+            "frame": {
+                "x": 1024,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee245.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee246.png": {
+            "frame": {
+                "x": 1536,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee247.png": {
+            "frame": {
+                "x": 1792,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee248.png": {
+            "frame": {
+                "x": 2048,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee249.png": {
+            "frame": {
+                "x": 2304,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee250.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee251.png": {
+            "frame": {
+                "x": 2816,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee252.png": {
+            "frame": {
+                "x": 3072,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee253.png": {
+            "frame": {
+                "x": 3328,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee254.png": {
+            "frame": {
+                "x": 3584,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee255.png": {
+            "frame": {
+                "x": 3840,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee256.png": {
+            "frame": {
+                "x": 4096,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee257.png": {
+            "frame": {
+                "x": 4352,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee258.png": {
+            "frame": {
+                "x": 4608,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee259.png": {
+            "frame": {
+                "x": 4864,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee260.png": {
+            "frame": {
+                "x": 5120,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee261.png": {
+            "frame": {
+                "x": 5376,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee262.png": {
+            "frame": {
+                "x": 5632,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee263.png": {
+            "frame": {
+                "x": 5888,
+                "y": 2560,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee264.png": {
+            "frame": {
+                "x": 0,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee265.png": {
+            "frame": {
+                "x": 256,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee266.png": {
+            "frame": {
+                "x": 512,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee267.png": {
+            "frame": {
+                "x": 768,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee268.png": {
+            "frame": {
+                "x": 1024,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee269.png": {
+            "frame": {
+                "x": 1280,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee270.png": {
+            "frame": {
+                "x": 1536,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee271.png": {
+            "frame": {
+                "x": 1792,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee272.png": {
+            "frame": {
+                "x": 2048,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee273.png": {
+            "frame": {
+                "x": 2304,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee274.png": {
+            "frame": {
+                "x": 2560,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee275.png": {
+            "frame": {
+                "x": 2816,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee276.png": {
+            "frame": {
+                "x": 3072,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee277.png": {
+            "frame": {
+                "x": 3328,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee278.png": {
+            "frame": {
+                "x": 3584,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee279.png": {
+            "frame": {
+                "x": 3840,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee280.png": {
+            "frame": {
+                "x": 4096,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee281.png": {
+            "frame": {
+                "x": 4352,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee282.png": {
+            "frame": {
+                "x": 4608,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee283.png": {
+            "frame": {
+                "x": 4864,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee284.png": {
+            "frame": {
+                "x": 5120,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee285.png": {
+            "frame": {
+                "x": 5376,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee286.png": {
+            "frame": {
+                "x": 5632,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee287.png": {
+            "frame": {
+                "x": 5888,
+                "y": 2816,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee288.png": {
+            "frame": {
+                "x": 0,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee289.png": {
+            "frame": {
+                "x": 256,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee290.png": {
+            "frame": {
+                "x": 512,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee291.png": {
+            "frame": {
+                "x": 768,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee292.png": {
+            "frame": {
+                "x": 1024,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee293.png": {
+            "frame": {
+                "x": 1280,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee294.png": {
+            "frame": {
+                "x": 1536,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee295.png": {
+            "frame": {
+                "x": 1792,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee296.png": {
+            "frame": {
+                "x": 2048,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee297.png": {
+            "frame": {
+                "x": 2304,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee298.png": {
+            "frame": {
+                "x": 2560,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee299.png": {
+            "frame": {
+                "x": 2816,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee300.png": {
+            "frame": {
+                "x": 3072,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee301.png": {
+            "frame": {
+                "x": 3328,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee302.png": {
+            "frame": {
+                "x": 3584,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee303.png": {
+            "frame": {
+                "x": 3840,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee304.png": {
+            "frame": {
+                "x": 4096,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee305.png": {
+            "frame": {
+                "x": 4352,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee306.png": {
+            "frame": {
+                "x": 4608,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee307.png": {
+            "frame": {
+                "x": 4864,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee308.png": {
+            "frame": {
+                "x": 5120,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee309.png": {
+            "frame": {
+                "x": 5376,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee310.png": {
+            "frame": {
+                "x": 5632,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee311.png": {
+            "frame": {
+                "x": 5888,
+                "y": 3072,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee312.png": {
+            "frame": {
+                "x": 0,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee313.png": {
+            "frame": {
+                "x": 256,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee314.png": {
+            "frame": {
+                "x": 512,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee315.png": {
+            "frame": {
+                "x": 768,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee316.png": {
+            "frame": {
+                "x": 1024,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee317.png": {
+            "frame": {
+                "x": 1280,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee318.png": {
+            "frame": {
+                "x": 1536,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee319.png": {
+            "frame": {
+                "x": 1792,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee320.png": {
+            "frame": {
+                "x": 2048,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee321.png": {
+            "frame": {
+                "x": 2304,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee322.png": {
+            "frame": {
+                "x": 2560,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee323.png": {
+            "frame": {
+                "x": 2816,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee324.png": {
+            "frame": {
+                "x": 3072,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee325.png": {
+            "frame": {
+                "x": 3328,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee326.png": {
+            "frame": {
+                "x": 3584,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee327.png": {
+            "frame": {
+                "x": 3840,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee328.png": {
+            "frame": {
+                "x": 4096,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee329.png": {
+            "frame": {
+                "x": 4352,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee330.png": {
+            "frame": {
+                "x": 4608,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee331.png": {
+            "frame": {
+                "x": 4864,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee332.png": {
+            "frame": {
+                "x": 5120,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee333.png": {
+            "frame": {
+                "x": 5376,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee334.png": {
+            "frame": {
+                "x": 5632,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee335.png": {
+            "frame": {
+                "x": 5888,
+                "y": 3328,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee336.png": {
+            "frame": {
+                "x": 0,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee337.png": {
+            "frame": {
+                "x": 256,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee338.png": {
+            "frame": {
+                "x": 512,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee339.png": {
+            "frame": {
+                "x": 768,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee340.png": {
+            "frame": {
+                "x": 1024,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee341.png": {
+            "frame": {
+                "x": 1280,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee342.png": {
+            "frame": {
+                "x": 1536,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee343.png": {
+            "frame": {
+                "x": 1792,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee344.png": {
+            "frame": {
+                "x": 2048,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee345.png": {
+            "frame": {
+                "x": 2304,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee346.png": {
+            "frame": {
+                "x": 2560,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee347.png": {
+            "frame": {
+                "x": 2816,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee348.png": {
+            "frame": {
+                "x": 3072,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee349.png": {
+            "frame": {
+                "x": 3328,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee350.png": {
+            "frame": {
+                "x": 3584,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee351.png": {
+            "frame": {
+                "x": 3840,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee352.png": {
+            "frame": {
+                "x": 4096,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee353.png": {
+            "frame": {
+                "x": 4352,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee354.png": {
+            "frame": {
+                "x": 4608,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee355.png": {
+            "frame": {
+                "x": 4864,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee356.png": {
+            "frame": {
+                "x": 5120,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee357.png": {
+            "frame": {
+                "x": 5376,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee358.png": {
+            "frame": {
+                "x": 5632,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee359.png": {
+            "frame": {
+                "x": 5888,
+                "y": 3584,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee360.png": {
+            "frame": {
+                "x": 0,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee361.png": {
+            "frame": {
+                "x": 256,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee362.png": {
+            "frame": {
+                "x": 512,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee363.png": {
+            "frame": {
+                "x": 768,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee364.png": {
+            "frame": {
+                "x": 1024,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee365.png": {
+            "frame": {
+                "x": 1280,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee366.png": {
+            "frame": {
+                "x": 1536,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee367.png": {
+            "frame": {
+                "x": 1792,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee368.png": {
+            "frame": {
+                "x": 2048,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee369.png": {
+            "frame": {
+                "x": 2304,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee370.png": {
+            "frame": {
+                "x": 2560,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee371.png": {
+            "frame": {
+                "x": 2816,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee372.png": {
+            "frame": {
+                "x": 3072,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee373.png": {
+            "frame": {
+                "x": 3328,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee374.png": {
+            "frame": {
+                "x": 3584,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee375.png": {
+            "frame": {
+                "x": 3840,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee376.png": {
+            "frame": {
+                "x": 4096,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee377.png": {
+            "frame": {
+                "x": 4352,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee378.png": {
+            "frame": {
+                "x": 4608,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee379.png": {
+            "frame": {
+                "x": 4864,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee380.png": {
+            "frame": {
+                "x": 5120,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee381.png": {
+            "frame": {
+                "x": 5376,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee382.png": {
+            "frame": {
+                "x": 5632,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee383.png": {
+            "frame": {
+                "x": 5888,
+                "y": 3840,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee384.png": {
+            "frame": {
+                "x": 0,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee385.png": {
+            "frame": {
+                "x": 256,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee386.png": {
+            "frame": {
+                "x": 512,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee387.png": {
+            "frame": {
+                "x": 768,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee388.png": {
+            "frame": {
+                "x": 1024,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee389.png": {
+            "frame": {
+                "x": 1280,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee390.png": {
+            "frame": {
+                "x": 1536,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee391.png": {
+            "frame": {
+                "x": 1792,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee392.png": {
+            "frame": {
+                "x": 2048,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee393.png": {
+            "frame": {
+                "x": 2304,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee394.png": {
+            "frame": {
+                "x": 2560,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee395.png": {
+            "frame": {
+                "x": 2816,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee396.png": {
+            "frame": {
+                "x": 3072,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee397.png": {
+            "frame": {
+                "x": 3328,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee398.png": {
+            "frame": {
+                "x": 3584,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee399.png": {
+            "frame": {
+                "x": 3840,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee400.png": {
+            "frame": {
+                "x": 4096,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee401.png": {
+            "frame": {
+                "x": 4352,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee402.png": {
+            "frame": {
+                "x": 4608,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee403.png": {
+            "frame": {
+                "x": 4864,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee404.png": {
+            "frame": {
+                "x": 5120,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee405.png": {
+            "frame": {
+                "x": 5376,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee406.png": {
+            "frame": {
+                "x": 5632,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "ShadowFiendMelee407.png": {
+            "frame": {
+                "x": 5888,
+                "y": 4096,
+                "w": 256,
+                "h": 256
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        }
+    },
+    "animations": {
+        "Death": [
+            "ShadowFiendMelee0.png",
+            "ShadowFiendMelee1.png",
+            "ShadowFiendMelee2.png",
+            "ShadowFiendMelee3.png",
+            "ShadowFiendMelee4.png",
+            "ShadowFiendMelee5.png",
+            "ShadowFiendMelee6.png",
+            "ShadowFiendMelee7.png",
+            "ShadowFiendMelee8.png",
+            "ShadowFiendMelee9.png",
+            "ShadowFiendMelee10.png",
+            "ShadowFiendMelee11.png",
+            "ShadowFiendMelee12.png",
+            "ShadowFiendMelee13.png",
+            "ShadowFiendMelee14.png",
+            "ShadowFiendMelee15.png",
+            "ShadowFiendMelee16.png",
+            "ShadowFiendMelee17.png",
+            "ShadowFiendMelee18.png",
+            "ShadowFiendMelee19.png",
+            "ShadowFiendMelee20.png",
+            "ShadowFiendMelee21.png",
+            "ShadowFiendMelee22.png",
+            "ShadowFiendMelee23.png"
+        ],
+        "attackEast": [
+            "ShadowFiendMelee28.png",
+            "ShadowFiendMelee29.png",
+            "ShadowFiendMelee30.png",
+            "ShadowFiendMelee31.png",
+            "ShadowFiendMelee32.png",
+            "ShadowFiendMelee33.png",
+            "ShadowFiendMelee34.png",
+            "ShadowFiendMelee35.png",
+            "ShadowFiendMelee36.png",
+            "ShadowFiendMelee37.png",
+            "ShadowFiendMelee38.png",
+            "ShadowFiendMelee39.png",
+            "ShadowFiendMelee40.png",
+            "ShadowFiendMelee41.png",
+            "ShadowFiendMelee42.png",
+            "ShadowFiendMelee43.png",
+            "ShadowFiendMelee44.png"
+        ],
+        "attackNorth": [
+            "ShadowFiendMelee52.png",
+            "ShadowFiendMelee53.png",
+            "ShadowFiendMelee54.png",
+            "ShadowFiendMelee55.png",
+            "ShadowFiendMelee56.png",
+            "ShadowFiendMelee57.png",
+            "ShadowFiendMelee58.png",
+            "ShadowFiendMelee59.png",
+            "ShadowFiendMelee60.png",
+            "ShadowFiendMelee61.png",
+            "ShadowFiendMelee62.png",
+            "ShadowFiendMelee63.png",
+            "ShadowFiendMelee64.png",
+            "ShadowFiendMelee65.png",
+            "ShadowFiendMelee66.png",
+            "ShadowFiendMelee67.png",
+            "ShadowFiendMelee68.png"
+        ],
+        "attackNorthEast": [
+            "ShadowFiendMelee73.png",
+            "ShadowFiendMelee74.png",
+            "ShadowFiendMelee75.png",
+            "ShadowFiendMelee76.png",
+            "ShadowFiendMelee77.png",
+            "ShadowFiendMelee78.png",
+            "ShadowFiendMelee79.png",
+            "ShadowFiendMelee80.png",
+            "ShadowFiendMelee81.png",
+            "ShadowFiendMelee82.png",
+            "ShadowFiendMelee83.png",
+            "ShadowFiendMelee84.png",
+            "ShadowFiendMelee85.png",
+            "ShadowFiendMelee86.png",
+            "ShadowFiendMelee87.png",
+            "ShadowFiendMelee88.png",
+            "ShadowFiendMelee89.png"
+        ]
+    },
+    "meta": {
+        "app": "webbcake",
+        "image": "ShadowFiendMelee",
+        "size": {
+            "w": 6144,
+            "h": 6144
+        }
+    }
+}
